@@ -1,0 +1,2 @@
+outcome,n,MAE_wick_P50,MAE_wick_P75,MAE_wick_P90,MAE_wick_P95,MAE_wick_P97.5,MAE_wick_P99,MAE_wick_P99.9
+winner,952,0.79,1.79,3.261,4.177,5.368,7.523,11.167

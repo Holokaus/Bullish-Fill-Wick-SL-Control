@@ -1,0 +1,69 @@
+# IDENTITY GATE (§1)
+E4: n=1470(exp1470,OK) net=48.72(exp48.72,OK) win=79.0(exp79.0,OK) maxentry=2024-12-30 04:00:00(<2025-01-01:OK) -> PASS
+E3: n=2215(exp2215,OK) net=20.42(exp20.42,OK) win=86.8(exp86.8,OK) maxentry=2024-12-31 15:00:00(<2025-01-01:OK) -> PASS
+E2: n=6101(exp6101,OK) net=10.26(exp10.26,OK) win=91.1(exp91.1,OK) maxentry=2024-12-31 19:30:00(<2025-01-01:OK) -> PASS
+E1: n=6420(exp6420,OK) net=20.76(exp20.76,OK) win=90.6(exp90.6,OK) maxentry=2024-12-31 10:00:00(<2025-01-01:OK) -> PASS
+E1: n0=6420 n_L_struct=612 n_W_struct=5808 struct_WR=90.5 n_L_econ=602 n_W_econ=5818
+E1: rvol_top_q cut (P80 rvol_event) = 2.820 (in-sample)
+E2: n0=6101 n_L_struct=557 n_W_struct=5544 struct_WR=90.9 n_L_econ=543 n_W_econ=5558
+E2: rvol_top_q cut (P80 rvol_event) = 4.131 (in-sample)
+E3: n0=2215 n_L_struct=312 n_W_struct=1903 struct_WR=85.9 n_L_econ=293 n_W_econ=1922
+E3: rvol_top_q cut (P80 rvol_event) = 3.454 (in-sample)
+E4: n0=1470 n_L_struct=335 n_W_struct=1135 struct_WR=77.2 n_L_econ=309 n_W_econ=1161
+E4: rvol_top_q cut (P80 rvol_event) = 2.082 (in-sample)
+
+# BH (§5): family size=68 q=0.05 rejected=54
+  REJECTED E1 event_red p=0.000539907
+  REJECTED E1 event_green p=0.00145353
+  REJECTED E1 rg p=0.0202838
+  REJECTED E1 gr p=0.0102462
+  REJECTED E1 rvol_ge_1_3 p=1.33473e-08
+  REJECTED E1 rvol_ge_2_0 p=4.12497e-09
+  REJECTED E1 rvol_top_q p=6.942e-12
+  REJECTED E1 prev_rvol_ge_2_0 p=4.72315e-06
+  REJECTED E1 event_vol_gt_prev p=0.00369114
+  REJECTED E1 rr_and_rvol_ge_2_0 p=0.0295399
+  REJECTED E1 event_red_and_rvol_ge_2_0 p=1.42524e-08
+  REJECTED E1 event_red_and_rvol_ge_1_3 p=1.68246e-09
+  REJECTED E1 event_red_and_rvol_top_q p=5.80983e-10
+  REJECTED E2 event_red p=0.000203823
+  REJECTED E2 event_green p=0.000125464
+  REJECTED E2 prev_red p=0.00232364
+  REJECTED E2 prev_green p=0.00280924
+  REJECTED E2 rg p=0.00101795
+  REJECTED E2 gr p=6.71227e-06
+  REJECTED E2 rvol_ge_1_3 p=6.16096e-09
+  REJECTED E2 rvol_ge_2_0 p=7.27574e-12
+  REJECTED E2 rvol_top_q p=4.44089e-15
+  REJECTED E2 prev_rvol_ge_2_0 p=0.00914607
+  REJECTED E2 event_vol_gt_prev p=0.00263363
+  REJECTED E2 rr_and_rvol_ge_2_0 p=0.00389308
+  REJECTED E2 event_red_and_rvol_ge_2_0 p=1.09253e-11
+  REJECTED E2 event_red_and_rvol_ge_1_3 p=2.45971e-08
+  REJECTED E2 event_red_and_rvol_top_q p=1.49658e-13
+  REJECTED E3 event_red p=0.000753681
+  REJECTED E3 event_green p=0.000803614
+  REJECTED E3 rr p=0.00172062
+  REJECTED E3 gr p=0.0234259
+  REJECTED E3 rvol_ge_1_3 p=0.000606396
+  REJECTED E3 rvol_ge_2_0 p=3.04104e-06
+  REJECTED E3 rvol_top_q p=1.36987e-07
+  REJECTED E3 event_vol_gt_prev p=1.2197e-05
+  REJECTED E3 rr_and_rvol_ge_2_0 p=0.000760896
+  REJECTED E3 event_red_and_rvol_ge_2_0 p=2.33637e-06
+  REJECTED E3 event_red_and_rvol_ge_1_3 p=2.90641e-06
+  REJECTED E3 event_red_and_rvol_top_q p=1.46937e-09
+  REJECTED E4 event_red p=7.37475e-08
+  REJECTED E4 event_green p=1.41068e-07
+  REJECTED E4 rr p=0.000131466
+  REJECTED E4 rg p=0.00616439
+  REJECTED E4 gr p=0.000493402
+  REJECTED E4 gg p=0.0187675
+  REJECTED E4 rvol_ge_1_3 p=0.00551672
+  REJECTED E4 rvol_ge_2_0 p=0.00167365
+  REJECTED E4 rvol_top_q p=0.000344173
+  REJECTED E4 event_vol_gt_prev p=9.74369e-05
+  REJECTED E4 rr_and_rvol_ge_2_0 p=0.0045359
+  REJECTED E4 event_red_and_rvol_ge_2_0 p=3.24917e-05
+  REJECTED E4 event_red_and_rvol_ge_1_3 p=2.68042e-08
+  REJECTED E4 event_red_and_rvol_top_q p=1.21227e-05

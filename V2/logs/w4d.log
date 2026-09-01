@@ -1,0 +1,43 @@
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4d_inverted.py:72: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+SOLUSDT-5m done
+SOLUSDT-15m done
+SOLUSDT-30m done
+SOLUSDT-1h done
+SOLUSDT-4h done
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4d_inverted.py:72: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4d_inverted.py:73: RuntimeWarning: divide by zero encountered in divide
+  atr=pd.Series(rng_).rolling(14).mean().shift(1).values; rx=rng_/atr
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4d_inverted.py:73: RuntimeWarning: invalid value encountered in divide
+  atr=pd.Series(rng_).rolling(14).mean().shift(1).values; rx=rng_/atr
+ICPUSDT-5m done
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4d_inverted.py:72: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+ICPUSDT-15m done
+ICPUSDT-30m done
+ICPUSDT-1h done
+ICPUSDT-4h done
+BTCUSDT-15m done
+BTCUSDT-1h done
+ETHUSDT-1h done
+
+=== TOP 15 INVERTED-GATE CELLS by net_maker ===
+    series     cond entry   f  sl   N  net_taker  net_maker  ci_lo_m  ci_hi_m    wr  sig_maker
+SOLUSDT-4h    uwd10   MKT 1.5 low 253       3.37      10.37    -19.1     40.5 0.340      False
+SOLUSDT-4h     loud   MKT 1.5 low 332       2.52       9.52    -24.1     44.3 0.395      False
+SOLUSDT-4h    uwd10   MKT 1.5 mid 253       1.15       8.15    -19.8     36.5 0.312      False
+SOLUSDT-4h  XLtrend   MKT 1.0 mid 102       0.94       7.94    -46.1     63.1 0.412      False
+SOLUSDT-4h     loud   MKT 1.5 mid 332      -0.94       6.06    -26.0     38.9 0.367      False
+SOLUSDT-4h    uwd10    PB 1.0 low 230      -0.97       6.03     -9.7     22.9 0.183      False
+SOLUSDT-4h       XL    PB 1.0 low 179      -1.43       5.57    -15.0     26.9 0.201      False
+SOLUSDT-4h    uwd10    PB 1.5 low 230      -1.84       5.16    -14.3     26.1 0.139      False
+SOLUSDT-4h     loud    PB 1.0 low 284      -2.70       4.30    -13.7     22.4 0.236      False
+SOLUSDT-4h  XLtrend    PB 1.0 low  90      -3.16       3.84    -30.2     39.6 0.178      False
+SOLUSDT-4h smaAbove    PB 1.5 low 401      -4.13       2.87    -11.4     17.5 0.180      False
+SOLUSDT-4h smaAbove    PB 1.0 low 401      -4.36       2.64     -9.3     15.2 0.217      False
+SOLUSDT-4h       XL    PB 1.5 low 179      -4.39       2.61    -21.5     30.3 0.151      False
+SOLUSDT-1h  XLtrend   MKT 1.5 mid 391      -4.46       2.54    -16.6     23.2 0.307      False
+ICPUSDT-4h  XLtrend   MKT 1.5 low  97      -4.62       2.38    -58.3     63.2 0.381      False
+
+cells=832 CI>0=0

@@ -1,0 +1,101 @@
+# IDENTITY GATE
+E1: n=6420(exp6420,OK) net=20.76(exp20.76,OK) win=90.6(exp90.6,OK) maxentry=2024-12-31 10:00:00(<2025-01-01:OK) -> PASS
+E2: n=6101(exp6101,OK) net=10.26(exp10.26,OK) win=91.1(exp91.1,OK) maxentry=2024-12-31 19:30:00(<2025-01-01:OK) -> PASS
+E3: n=2215(exp2215,OK) net=20.42(exp20.42,OK) win=86.8(exp86.8,OK) maxentry=2024-12-31 15:00:00(<2025-01-01:OK) -> PASS
+E4: n=1470(exp1470,OK) net=48.72(exp48.72,OK) win=79.0(exp79.0,OK) maxentry=2024-12-30 04:00:00(<2025-01-01:OK) -> PASS
+
+E1: n0=6420 n_L_struct=612 n_W_struct=5808 struct_WR=90.5 n_L_econ=602 n_W_econ=5818
+E1: rvol_top_q cut (P80 rvol) = 0.265 (in-sample)
+E2: n0=6101 n_L_struct=557 n_W_struct=5544 struct_WR=90.9 n_L_econ=543 n_W_econ=5558
+E2: rvol_top_q cut (P80 rvol) = 0.212 (in-sample)
+E3: n0=2215 n_L_struct=312 n_W_struct=1903 struct_WR=85.9 n_L_econ=293 n_W_econ=1922
+E3: rvol_top_q cut (P80 rvol) = 0.354 (in-sample)
+E4: n0=1470 n_L_struct=335 n_W_struct=1135 struct_WR=77.2 n_L_econ=309 n_W_econ=1161
+E4: rvol_top_q cut (P80 rvol) = 0.327 (in-sample)
+
+# BH q=0.05 rejected=85
+  E1 event_red p=0.000539907
+  E1 event_green p=0.00145353
+  E1 gr p=0.0102462
+  E1 rvol_ge_1_3 p=3.08097e-07
+  E1 rvol_ge_2_0 p=4.32662e-10
+  E1 prev_rvol_ge_2_0 p=1.96443e-05
+  E1 event_vol_gt_prev p=0.00369114
+  E1 outside_bar p=0.00936458
+  E1 range_expand p=2.03651e-10
+  E1 range_pctile_high p=1.92005e-09
+  E1 low_volume p=0.00298354
+  E1 volume_slope_up p=4.53043e-08
+  E1 ma_bull p=0.000841873
+  E1 ma_bear p=0.000841873
+  E1 bars_since_high_ge10 p=0.0139278
+  E1 weekend p=0.00993793
+  E1 event_red_and_range_expand p=1.35277e-09
+  E1 event_red_and_above_ma20 p=0.00549106
+  E1 event_red_and_ma_bull p=1.25214e-07
+  E1 rvol_ge_2_and_ma_bull p=1.78378e-08
+  E1 rvol_ge_2_and_range_expand p=6.579e-11
+  E1 rvol_top_q_and_ma_bull p=0.00052551
+  E1 doji_and_high_volume p=0.00295405
+  E1 event_green_and_low_volume p=0.0112789
+  E2 event_red p=0.000203823
+  E2 event_green p=0.000125464
+  E2 prev_red p=0.00232364
+  E2 prev_green p=0.00280924
+  E2 rg p=0.00101795
+  E2 gr p=6.71227e-06
+  E2 rvol_ge_1_3 p=7.17e-09
+  E2 rvol_ge_2_0 p=5.88418e-14
+  E2 prev_rvol_ge_2_0 p=0.000307441
+  E2 event_vol_gt_prev p=0.00263363
+  E2 outside_bar p=0.000296599
+  E2 range_expand p=7.17204e-14
+  E2 range_pctile_high p=6.21725e-15
+  E2 low_volume p=0.00172065
+  E2 volume_slope_up p=8.17863e-08
+  E2 ma_bull p=0.000655962
+  E2 ma_bear p=0.000655962
+  E2 event_red_and_range_expand p=9.10383e-14
+  E2 event_red_and_above_ma20 p=0.00122303
+  E2 event_red_and_ma_bull p=8.24731e-06
+  E2 rvol_ge_2_and_ma_bull p=2.45359e-13
+  E2 rvol_ge_2_and_range_expand p=4.13003e-14
+  E2 rvol_top_q_and_ma_bull p=0.000680561
+  E2 doji_and_high_volume p=6.22748e-07
+  E2 event_green_and_low_volume p=0.000483544
+  E3 event_red p=0.000753681
+  E3 event_green p=0.000803614
+  E3 rr p=0.00172062
+  E3 rvol_ge_1_3 p=0.000249092
+  E3 rvol_ge_2_0 p=4.27338e-05
+  E3 event_vol_gt_prev p=1.2197e-05
+  E3 outside_bar p=0.00178676
+  E3 range_expand p=3.5918e-07
+  E3 range_contract p=0.0171059
+  E3 range_pctile_high p=5.19989e-05
+  E3 low_volume p=0.000466953
+  E3 volume_slope_up p=2.27023e-05
+  E3 red_streak_ge2 p=0.00172062
+  E3 red_streak_ge3 p=0.000632869
+  E3 event_red_and_range_expand p=3.12508e-07
+  E3 event_red_and_above_ma20 p=0.00915095
+  E3 event_red_and_ma_bull p=0.00521195
+  E3 rvol_ge_2_and_ma_bull p=7.46662e-05
+  E3 rvol_ge_2_and_range_expand p=1.93732e-06
+  E4 event_red p=7.37475e-08
+  E4 event_green p=1.41068e-07
+  E4 rr p=0.000131466
+  E4 rg p=0.00616439
+  E4 gr p=0.000493402
+  E4 gg p=0.0187675
+  E4 rvol_ge_1_3 p=0.000200652
+  E4 event_vol_gt_prev p=9.74369e-05
+  E4 inside_bar p=0.00527393
+  E4 outside_bar p=0.000230005
+  E4 range_expand p=0.0011481
+  E4 volume_slope_up p=0.000421183
+  E4 red_streak_ge2 p=0.000131466
+  E4 green_streak_ge2 p=0.0187675
+  E4 event_red_and_range_expand p=2.28089e-07
+  E4 event_red_and_above_ma20 p=0.000400692
+  E4 event_red_and_ma_bull p=0.016433

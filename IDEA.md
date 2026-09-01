@@ -1,0 +1,3 @@
+The bullish or bearish candle with an upper wick concept, regardless of traditional price action or other technical analysis theories.
+
+We need to study from the beginning here using a purely statistical method to reach a fact we can build a trading system on. Utilize all your power, your intelligence, your mathematical knowledge, your internet access, your MCPs, your skills (except the other profiles ones. using the skills built by the other profile is forbidden), and all your experience and the mega-mind you have to reach the goal. Proving the concept or theory theoretically is not enough; the goal is converting the discovery into a tradeable method. Good luck.

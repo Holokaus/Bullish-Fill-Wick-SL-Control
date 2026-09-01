@@ -1,0 +1,45 @@
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w5_nosl_economics.py:78: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+SOLUSDT-5m done
+SOLUSDT-15m done
+SOLUSDT-30m done
+SOLUSDT-1h done
+SOLUSDT-4h done
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w5_nosl_economics.py:79: RuntimeWarning: divide by zero encountered in divide
+  rx=rng_/pd.Series(rng_).rolling(14).mean().shift(1).values
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w5_nosl_economics.py:79: RuntimeWarning: invalid value encountered in divide
+  rx=rng_/pd.Series(rng_).rolling(14).mean().shift(1).values
+ICPUSDT-5m done
+ICPUSDT-15m done
+ICPUSDT-30m done
+ICPUSDT-1h done
+ICPUSDT-4h done
+BTCUSDT-15m done
+BTCUSDT-1h done
+ETHUSDT-1h done
+
+===== SUMMARY (TRAIN, all exit modes) =====
+
+exit=low: cells=468  net_maker>0 (above cost, pt-est)=1  CI>0 (significant)=0
+    series     cond entry   f   N  net_maker  ci_lo_m  ci_hi_m
+SOLUSDT-4h prevBear    PB 1.0 326       2.18    -10.7     16.2
+ICPUSDT-4h CQ7_w78q    PB 1.0 122      -1.51    -20.3     19.1
+SOLUSDT-4h      ALL    PB 1.0 749      -2.17    -10.6      7.0
+ICPUSDT-4h CQ7_w78q    PB 1.5 122      -2.53    -24.3     22.4
+SOLUSDT-1h CQ7_w78q    PB 1.5 466      -2.70     -7.3      2.3
+
+exit=mid: cells=468  net_maker>0 (above cost, pt-est)=0  CI>0 (significant)=0
+    series     cond entry   f    N  net_maker  ci_lo_m  ci_hi_m
+SOLUSDT-4h prevBear   MKT 1.5  373      -1.88    -26.9     23.0
+ICPUSDT-4h C6_w9dip   MKT 1.5  199      -2.05    -27.0     24.6
+ICPUSDT-1h C6_w9dip    PB 1.5  691      -3.08     -6.4      0.9
+BTCUSDT-1h C6_w9dip   MKT 1.5  763      -3.94     -7.6     -0.3
+SOLUSDT-1h    quiet    PB 1.5 1222      -3.96     -6.0     -1.7
+
+exit=NOSL: cells=468  net_maker>0 (above cost, pt-est)=255  CI>0 (significant)=118
+    series     cond entry   f   N  net_maker  ci_lo_m  ci_hi_m
+SOLUSDT-4h C6_w9dip    PB 1.5 176     143.92     84.9    195.4
+SOLUSDT-4h prevBear    PB 1.5 326     114.35     61.9    159.9
+SOLUSDT-4h C6_w9dip   MKT 1.5 195     106.19     50.3    157.3
+SOLUSDT-4h C6_w9dip    PB 1.0 176     103.81     57.6    144.7
+SOLUSDT-4h      ALL    PB 1.5 749      98.96     58.4    139.1

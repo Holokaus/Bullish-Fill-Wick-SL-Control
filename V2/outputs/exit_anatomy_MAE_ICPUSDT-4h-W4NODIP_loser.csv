@@ -1,0 +1,2 @@
+outcome,n,MAE_wick_P50,MAE_wick_P75,MAE_wick_P90,MAE_wick_P95,MAE_wick_P97.5,MAE_wick_P99,MAE_wick_P99.9
+loser,775,1.273,2.118,3.427,5.165,6.536,7.836,21.082

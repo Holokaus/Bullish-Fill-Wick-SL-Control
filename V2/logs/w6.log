@@ -1,0 +1,27 @@
+ICPUSDT-30m done
+ICPUSDT-1h done
+SOLUSDT-1h done
+BTCUSDT-1h done
+ETHUSDT-1h done
+
+===== W6 STOP STUDY SUMMARY =====
+rows: 4680
+
+--- ABS: cells=1800, above_cost(CI>0)=0, median edge retained=0.00
+Empty DataFrame
+Columns: [series, cond, entry, f, stop_param, N, stop_out, net_maker, ci_lo, ci_hi, edge_ret]
+Index: []
+
+--- ATR: cells=900, above_cost(CI>0)=0, median edge retained=0.00
+Empty DataFrame
+Columns: [series, cond, entry, f, stop_param, N, stop_out, net_maker, ci_lo, ci_hi, edge_ret]
+Index: []
+
+--- QMAE: cells=720, above_cost(CI>0)=0, median edge retained=0.00
+Empty DataFrame
+Columns: [series, cond, entry, f, stop_param, N, stop_out, net_maker, ci_lo, ci_hi, edge_ret]
+Index: []
+
+--- TIME: cells=1080, above_cost(CI>0)=10, median edge retained=0.00
+
+--- NOSL: cells=180, above_cost(CI>0)=0, median edge retained=1.00

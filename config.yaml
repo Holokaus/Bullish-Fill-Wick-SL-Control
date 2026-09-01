@@ -1,0 +1,46 @@
+# BULLISH-FILL-WICK — single source of project configuration
+# Primary pipeline: Track 2 / V2 / OPERATION FILLPOINT (Bybit USDT-perp)
+# All scripts read from this file (directive §8.1).
+
+seed: 42
+n_bootstrap: 2000
+
+# --- Cost stack: Bybit USDT-perp VIP0 (locked, directive §1.3 / §13.3) ---
+fees:
+  maker_per_side_bps: 2.0
+  taker_per_side_bps: 5.5
+  slippage_rt_bps_on_taker: 4.0
+  # effective RT configs (declared per entry/exit mechanics):
+  rt_pb_pb_bps: 4.0     # PB(maker) entry, PB(maker) exit on TP; MKT fallback on horizon -> ~4 worst-case-disclosed
+  rt_pb_mkt_bps: 11.5   # PB(maker) entry, MKT(taker) exit on TP touch or horizon close
+  rt_mkt_mkt_bps: 15.0  # MKT(taker) entry, MKT(taker) exit (honest floor)
+
+# --- Windows (UTC, ms epochs derived in src/lib/time_gates.py) ---
+windows:
+  TRAIN:    { start: "2022-09-01", end: "2024-12-31" }
+  EVAL:     { start: "2025-01-01", end: "2025-06-30" }   # one-shot internal validation
+  HOLDOUT_RESERVED: { start: "2025-07-01", end: "2026-06-30" }  # DO NOT TOUCH
+  LOCKBOX:  { start: "2026-07-01", end: "2026-08-26" }
+
+# --- Assets & timeframes (Track 2 instrument set) ---
+assets: [SOLUSDT, ICPUSDT, BTCUSDT, ETHUSDT]
+timeframes: [5m, 15m, 30m, 1h, 4h]
+primary_asset: SOLUSDT
+primary_tf: 4h
+
+# --- Frozen candidate spec (post W6 time-stop, pre-E-VAL) ---
+candidate:
+  asset: SOLUSDT
+  tf: 4h
+  entry: PB            # pullback-limit at body-bottom (maker)
+  exit_tp: PB_MKT      # TP on touch (taker); horizon-close fallback (taker)
+  f_wick_gap: 1.5      # TP = body_top + 1.5 * wick_gap
+  stop_price: NONE
+  # time stop below; circuit breaker declared in FROZEN_CANDIDATE.md
+  declared_rt_bps: 11.5   # headline cost (PB+MKT)
+  cost_sensitivity_bps: [4.0, 11.5, 15.0]
+
+# --- Global FDR (selection-layer multiplicity control, directive §4.1) ---
+fdr:
+  method: BH
+  q: 0.05

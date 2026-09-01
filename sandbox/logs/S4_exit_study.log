@@ -1,0 +1,49 @@
+SOLUSDT-30m-W1NODIP SOLUSDT-30m W1_NODIP: n=16446 win%=92.7 MAE_wick win P95=14.93 loser P50=27.06 max_entry=2024-12-31 19:30:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W1NODIP.csv
+SOLUSDT-30m-W1DIP SOLUSDT-30m W1_DIP: n=3768 win%=93.8 MAE_wick win P95=18.26 loser P50=34.01 max_entry=2024-12-30 16:30:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W1DIP.csv
+SOLUSDT-30m-W2NODIP SOLUSDT-30m W2_NODIP: n=6420 win%=90.5 MAE_wick win P95=11.59 loser P50=17.40 max_entry=2024-12-31 10:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W2NODIP.csv
+SOLUSDT-30m-W2DIP SOLUSDT-30m W2_DIP: n=1633 win%=92.7 MAE_wick win P95=14.60 loser P50=22.56 max_entry=2024-12-30 16:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W2DIP.csv
+SOLUSDT-30m-W3NODIP SOLUSDT-30m W3_NODIP: n=1429 win%=86.9 MAE_wick win P95=8.51 loser P50=9.76 max_entry=2024-12-26 16:30:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W3NODIP.csv
+SOLUSDT-30m-W3DIP SOLUSDT-30m W3_DIP: n=418 win%=90.7 MAE_wick win P95=11.71 loser P50=16.00 max_entry=2024-12-26 16:30:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W3DIP.csv
+SOLUSDT-30m-W4NODIP SOLUSDT-30m W4_NODIP: n=7858 win%=92.4 MAE_wick win P95=12.85 loser P50=22.52 max_entry=2024-12-31 19:30:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W4NODIP.csv
+SOLUSDT-30m-W4DIP SOLUSDT-30m W4_DIP: n=1455 win%=94.2 MAE_wick win P95=13.83 loser P50=24.87 max_entry=2024-12-28 09:30:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-30m-W4DIP.csv
+SOLUSDT-1h-W1NODIP SOLUSDT-1h W1_NODIP: n=11123 win%=90.4 MAE_wick win P95=14.42 loser P50=22.20 max_entry=2024-12-31 21:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W1NODIP.csv
+SOLUSDT-1h-W1DIP SOLUSDT-1h W1_DIP: n=2421 win%=92.2 MAE_wick win P95=19.70 loser P50=25.97 max_entry=2024-12-30 16:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W1DIP.csv
+SOLUSDT-1h-W2NODIP SOLUSDT-1h W2_NODIP: n=5535 win%=88.3 MAE_wick win P95=11.05 loser P50=15.60 max_entry=2024-12-31 15:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W2NODIP.csv
+SOLUSDT-1h-W2DIP SOLUSDT-1h W2_DIP: n=1313 win%=90.9 MAE_wick win P95=14.84 loser P50=17.07 max_entry=2024-12-30 16:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W2DIP.csv
+SOLUSDT-1h-W3NODIP SOLUSDT-1h W3_NODIP: n=1594 win%=84.6 MAE_wick win P95=7.80 loser P50=9.22 max_entry=2024-12-26 03:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W3NODIP.csv
+SOLUSDT-1h-W3DIP SOLUSDT-1h W3_DIP: n=407 win%=88.0 MAE_wick win P95=11.04 loser P50=12.96 max_entry=2024-12-21 21:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W3DIP.csv
+SOLUSDT-1h-W4NODIP SOLUSDT-1h W4_NODIP: n=3844 win%=88.2 MAE_wick win P95=10.27 loser P50=16.14 max_entry=2024-12-31 21:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W4NODIP.csv
+SOLUSDT-1h-W4DIP SOLUSDT-1h W4_DIP: n=698 win%=90.5 MAE_wick win P95=11.80 loser P50=16.57 max_entry=2024-12-28 10:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-1h-W4DIP.csv
+SOLUSDT-4h-W1NODIP SOLUSDT-4h W1_NODIP: n=3951 win%=82.3 MAE_wick win P95=12.04 loser P50=12.73 max_entry=2024-12-31 20:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W1NODIP.csv
+SOLUSDT-4h-W1DIP SOLUSDT-4h W1_DIP: n=808 win%=82.4 MAE_wick win P95=15.95 loser P50=14.47 max_entry=2024-12-30 16:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W1DIP.csv
+SOLUSDT-4h-W2NODIP SOLUSDT-4h W2_NODIP: n=2915 win%=80.6 MAE_wick win P95=8.80 loser P50=10.72 max_entry=2024-12-31 12:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W2NODIP.csv
+SOLUSDT-4h-W2DIP SOLUSDT-4h W2_DIP: n=610 win%=82.3 MAE_wick win P95=13.38 loser P50=12.11 max_entry=2024-12-30 16:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W2DIP.csv
+SOLUSDT-4h-W3NODIP SOLUSDT-4h W3_NODIP: n=1470 win%=77.2 MAE_wick win P95=6.80 loser P50=7.18 max_entry=2024-12-30 04:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W3NODIP.csv
+SOLUSDT-4h-W3DIP SOLUSDT-4h W3_DIP: n=318 win%=78.0 MAE_wick win P95=11.66 loser P50=9.68 max_entry=2024-12-27 08:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W3DIP.csv
+SOLUSDT-4h-W4NODIP SOLUSDT-4h W4_NODIP: n=908 win%=79.1 MAE_wick win P95=6.53 loser P50=6.90 max_entry=2024-12-30 04:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W4NODIP.csv
+SOLUSDT-4h-W4DIP SOLUSDT-4h W4_DIP: n=118 win%=83.9 MAE_wick win P95=6.89 loser P50=10.03 max_entry=2024-12-26 20:00:00+00:00
+  wrote exit_anatomy_*_SOLUSDT-4h-W4DIP.csv
+PHASE A measurement done

@@ -1,0 +1,24 @@
+{
+  "spec": "E4_F_act_1wick",
+  "entry": {
+    "symbol": "SOLUSDT",
+    "tf": "4h",
+    "row": "E4",
+    "policy": "F_act_1wick"
+  },
+  "eval_window": {
+    "start": "2025-07-01",
+    "end": "2026-06-30"
+  },
+  "n_trades": 400,
+  "win_rate_pct": 72.0,
+  "net_bps": 115.69,
+  "monthly_bps": 297483.8,
+  "maxdd_pct": 1.72,
+  "worst_bps": -2022.7,
+  "med_hold_h": 24.0,
+  "C1_net_positive": true,
+  "C2_regime_stable": true,
+  "EVAL_result": "PASS",
+  "timestamp": "2026-09-01T13:37:17.903180Z"
+}

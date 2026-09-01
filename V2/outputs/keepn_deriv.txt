@@ -1,0 +1,91 @@
+# IDENTITY GATE (§2.1)
+E4: n=1470(exp1470,OK) net=48.72(exp48.72,OK) win=79.0(exp79.0,OK) maxdd=7.5(exp7.5,OK) worst=-6857.1(exp-6857.1,OK) maxentry=2024-12-30 04:00:00(<2025-01-01:OK) -> PASS
+E3: n=2215(exp2215,OK) net=20.42(exp20.42,OK) win=86.8(exp86.8,OK) maxdd=3.8(exp3.8,OK) worst=-2671.2(exp-2671.2,OK) maxentry=2024-12-31 15:00:00(<2025-01-01:OK) -> PASS
+E2: n=6101(exp6101,OK) net=10.26(exp10.26,OK) win=91.1(exp91.1,OK) maxdd=4.4(exp4.4,OK) worst=-2134.6(exp-2134.6,OK) maxentry=2024-12-31 19:30:00(<2025-01-01:OK) -> PASS
+E1: n=6420(exp6420,OK) net=20.76(exp20.76,OK) win=90.6(exp90.6,OK) maxdd=22.1(exp22.1,OK) worst=-7516.4(exp-7516.4,OK) maxentry=2024-12-31 10:00:00(<2025-01-01:OK) -> PASS
+E1 A_disaster_P99_9 L_wick=P99.9(MAE_winner)=43.316 (PhaseA MAE_winner_P99.9=43.316, match=True)
+E1 D_scale_1.0_MFEp50 f2=P50(MFE_winner)=2.450 (PhaseA MFE_winner_P50=2.450, match=True)
+E1 F_act_loserMFEp50 A=P50(MFE_loser)=0.815 (PhaseA MFE_loser_P50=0.815, match=True)
+E1 baseline net=20.76 win=90.6 maxdd=22.1 worst=-7516.4
+E2 A_disaster_P99_9 L_wick=P99.9(MAE_winner)=39.267 (PhaseA MAE_winner_P99.9=39.267, match=True)
+E2 D_scale_1.0_MFEp50 f2=P50(MFE_winner)=2.496 (PhaseA MFE_winner_P50=2.496, match=True)
+E2 F_act_loserMFEp50 A=P50(MFE_loser)=0.875 (PhaseA MFE_loser_P50=0.875, match=True)
+E2 baseline net=10.26 win=91.1 maxdd=4.4 worst=-2134.6
+E3 A_disaster_P99_9 L_wick=P99.9(MAE_winner)=30.601 (PhaseA MAE_winner_P99.9=30.601, match=True)
+E3 D_scale_1.0_MFEp50 f2=P50(MFE_winner)=2.361 (PhaseA MFE_winner_P50=2.361, match=True)
+E3 F_act_loserMFEp50 A=P50(MFE_loser)=0.829 (PhaseA MFE_loser_P50=0.829, match=True)
+E3 baseline net=20.42 win=86.8 maxdd=3.8 worst=-2671.2
+E4 A_disaster_P99_9 L_wick=P99.9(MAE_winner)=20.481 (PhaseA MAE_winner_P99.9=20.481, match=True)
+E4 D_scale_1.0_MFEp50 f2=P50(MFE_winner)=2.484 (PhaseA MFE_winner_P50=2.484, match=True)
+E4 F_act_loserMFEp50 A=P50(MFE_loser)=0.971 (PhaseA MFE_loser_P50=0.971, match=True)
+E4 baseline net=48.72 win=79.0 maxdd=7.5 worst=-6857.1
+
+# BH (§3.6): family size=84 q=0.05 rejected=68
+  REJECTED E1 A_disaster_P99_9 p=0.000215644
+  REJECTED E1 B_close_below_siglow p=2.05609e-09
+  REJECTED E1 B_close_below_entry p=4.53212e-10
+  REJECTED E1 B_close_below_entry_1wick p=1.96777e-06
+  REJECTED E1 C_flat_worst_6h p=0.0387479
+  REJECTED E1 C_flat_worst_12h p=0.00261526
+  REJECTED E1 C_flat_worst_24h p=0.0071319
+  REJECTED E1 D_tp_1.25 p=0.0174253
+  REJECTED E1 D_tp_1.50 p=0.000626198
+  REJECTED E1 D_tp_2.00 p=8.89873e-05
+  REJECTED E1 D_tp_2.50 p=1.96369e-07
+  REJECTED E1 D_scale_1.0_1.5 p=0.011984
+  REJECTED E1 D_scale_1.0_2.0 p=0.00315061
+  REJECTED E1 D_scale_1.0_MFEp50 p=0.000157892
+  REJECTED E1 E_time_TTF_P50 p=0.00210797
+  REJECTED E1 F_act_loserMFEp50 p=0.000713923
+  REJECTED E1 F_act_1wick p=0.00213027
+  REJECTED E1 G_limit_skip p=0.000320005
+  REJECTED E1 G_limit_mkt_fallback p=0.000565169
+  REJECTED E2 A_disaster_P99_9 p=0.00204083
+  REJECTED E2 B_close_below_siglow p=0
+  REJECTED E2 B_close_below_entry p=0
+  REJECTED E2 B_close_below_entry_1wick p=0
+  REJECTED E2 C_flat_worst_6h p=0.00267922
+  REJECTED E2 D_tp_1.25 p=0.00206852
+  REJECTED E2 D_tp_1.50 p=4.3822e-06
+  REJECTED E2 D_tp_2.00 p=1.68998e-11
+  REJECTED E2 D_tp_2.50 p=7.54952e-15
+  REJECTED E2 D_scale_1.0_1.5 p=0.00189445
+  REJECTED E2 D_scale_1.0_2.0 p=5.98285e-06
+  REJECTED E2 D_scale_1.0_MFEp50 p=6.62883e-08
+  REJECTED E2 E_time_TTF_P50 p=0
+  REJECTED E2 E_time_TTF_P75 p=3.11754e-05
+  REJECTED E2 F_act_loserMFEp50 p=1.49924e-05
+  REJECTED E2 F_act_1wick p=4.66724e-05
+  REJECTED E2 G_limit_skip p=1.56083e-08
+  REJECTED E2 G_limit_mkt_fallback p=3.86963e-06
+  REJECTED E3 A_disaster_P99_9 p=0.00772206
+  REJECTED E3 B_close_below_siglow p=0.0018065
+  REJECTED E3 B_close_below_entry p=1.83274e-05
+  REJECTED E3 B_close_below_entry_1wick p=0.0195318
+  REJECTED E3 D_tp_1.00 p=0.0316196
+  REJECTED E3 D_tp_1.25 p=0.00465666
+  REJECTED E3 D_tp_1.50 p=0.000706598
+  REJECTED E3 D_tp_2.00 p=5.20059e-05
+  REJECTED E3 D_tp_2.50 p=1.52605e-06
+  REJECTED E3 D_scale_1.0_1.5 p=0.0037128
+  REJECTED E3 D_scale_1.0_2.0 p=0.000676932
+  REJECTED E3 D_scale_1.0_MFEp50 p=8.75167e-05
+  REJECTED E3 E_time_TTF_P50 p=0.0322863
+  REJECTED E3 F_act_loserMFEp50 p=0.00528475
+  REJECTED E3 F_act_1wick p=0.00175419
+  REJECTED E3 G_limit_skip p=0.000521597
+  REJECTED E3 G_limit_mkt_fallback p=0.000871002
+  REJECTED E4 A_disaster_P99_9 p=0.0037136
+  REJECTED E4 D_tp_1.00 p=0.00877496
+  REJECTED E4 D_tp_1.25 p=0.00130379
+  REJECTED E4 D_tp_1.50 p=0.00134461
+  REJECTED E4 D_tp_2.00 p=0.000775971
+  REJECTED E4 D_tp_2.50 p=5.97234e-05
+  REJECTED E4 D_scale_1.0_1.5 p=0.00256266
+  REJECTED E4 D_scale_1.0_2.0 p=0.00137055
+  REJECTED E4 D_scale_1.0_MFEp50 p=0.00031104
+  REJECTED E4 E_time_TTF_P75 p=0.0289708
+  REJECTED E4 F_act_loserMFEp50 p=6.39572e-07
+  REJECTED E4 F_act_1wick p=1.11232e-06
+  REJECTED E4 G_limit_skip p=0.0138829
+  REJECTED E4 G_limit_mkt_fallback p=0.00214864

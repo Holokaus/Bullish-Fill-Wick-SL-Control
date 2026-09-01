@@ -1,0 +1,4 @@
+flag,n_flag,P_tp_if_flag,P_tp_if_noflag
+close_above_wickhigh,6,83.3,83.9
+close_below_wicklow,59,67.8,100.0
+close_below_entry_1wick,53,66.0,98.5

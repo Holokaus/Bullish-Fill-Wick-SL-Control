@@ -1,0 +1,86 @@
+//@version=5
+strategy("Bullish Fill Wick - E1 A_disaster_P99_9", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=2.0, currency=currency.USDT, commission_type=strategy.commission.percent, commission_value=0.0075)
+
+// ─── INPUTS ───
+wick_threshold_bps   = input.int(45, "Wick Threshold (bps)", minval=1)           // W2 = 45 bps
+tp_mult              = input.float(1.5, "TP Multiplier (× wick_gap)", step=0.1)   // 1.5× (baseline)
+disaster_mult        = input.float(43.3, "Disaster Stop Multiplier (× wick_gap)", step=0.1) // P99.9 winners' MAE = 43.3×
+time_stop_bars       = input.int(192, "Time Stop (bars)", minval=1)               // 192 bars = 4 days on 30m
+use_heikin_ashi      = input.bool(false, "Use Heikin Ashi for Signal")
+
+// ─── HELPERS ───
+src = use_heikin_ashi ? request.heikinashi(syminfo.tickerid) : close
+o   = use_heikin_ashi ? open  : open
+h   = use_heikin_ashi ? high  : high
+l   = use_heikin_ashi ? low   : low
+c   = use_heikin_ashi ? close : close
+
+// Upper wick in price and bps
+upper_wick_price = h - math.max(o, c)
+wick_bps         = (upper_wick_price / c) * 10000
+
+// Signal: upper wick ≥ threshold, no dip filter (NODIP)
+signal = wick_bps >= wick_threshold_bps
+
+// ─── STATE VARIABLES ───
+var float entry_price      = na
+var float tp_price         = na
+var float disaster_stop    = na
+var int   entry_bar        = na
+var float signal_wick_gap  = na
+
+// ─── ENTRY LOGIC ───
+if strategy.position_size == 0 and signal
+    // Calculate levels at signal bar
+    signal_wick_gap  := upper_wick_price
+    float body_top   = math.max(o, c)
+    tp_price         := body_top + tp_mult * signal_wick_gap
+    disaster_stop    := c - disaster_mult * signal_wick_gap  // HARD STOP below entry
+    entry_bar        := bar_index
+    
+    strategy.entry("Long", strategy.long, comment="E1 W2_NODIP")
+
+// ─── MANAGE OPEN POSITION ───
+if strategy.position_size > 0
+    // Time stop check
+    bars_held = bar_index - entry_bar
+    if bars_held >= time_stop_bars
+        strategy.close("Long", comment="Time Stop")
+        entry_price := na
+        tp_price := na
+        disaster_stop := na
+    
+    // Disaster stop check (hard stop, always active)
+    if low <= disaster_stop
+        strategy.close("Long", comment="Disaster Stop")
+        entry_price := na
+        tp_price := na
+        disaster_stop := na
+    
+    // Take profit check
+    if high >= tp_price
+        strategy.close("Long", comment="TP Hit")
+        entry_price := na
+        tp_price := na
+        disaster_stop := na
+
+// ─── PLOTTING ───
+plot(signal ? high + upper_wick_price * 0.1 : na, "Signal", color=color.lime, style=plot.style_circles, linewidth=3)
+plot(strategy.position_size > 0 ? tp_price : na, "Take Profit", color=color.green, style=plot.style_linebr)
+plot(strategy.position_size > 0 ? disaster_stop : na, "Disaster Stop (P99.9)", color=color.red, style=plot.style_linebr)
+
+// ─── DEBUG LABELS ───
+var label signal_label = na
+if signal and strategy.position_size == 0
+    label.delete(signal_label)
+    signal_label := label.new(bar_index, high, "W2 SIGNAL\nWick: " + str.tostring(wick_bps, "#.0") + " bps", color=color.lime, textcolor=color.black, style=label.style_label_up)
+
+// ─── ALERTS ───
+alertcondition(signal and strategy.position_size == 0, title="E1 W2 Signal", message="E1 A_disaster_P99_9: Bullish Fill Wick signal detected (wick ≥ " + str.tostring(wick_threshold_bps) + " bps)")
+alertcondition(strategy.position_size > 0 and low <= disaster_stop, title="Disaster Stop Hit", message="E1: DISASTER STOP hit at " + str.tostring(disaster_stop, "#.####") + " (P99.9 winners' MAE)")
+alertcondition(strategy.position_size > 0 and high >= tp_price, title="Take Profit Hit", message="E1: Take profit hit at " + str.tostring(tp_price, "#.####"))
+alertcondition(strategy.position_size > 0 and bar_index - entry_bar >= time_stop_bars, title="Time Stop Hit", message="E1: Time stop hit after " + str.tostring(time_stop_bars) + " bars")
+
+// ─── STRATEGY SETTINGS ───
+// Default: 2% equity per trade, 0.075% commission per side (15 bps round-trip)
+// Pyramiding disabled (default), process_orders_on_close=true (default)

@@ -1,0 +1,37 @@
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:93: RuntimeWarning: invalid value encountered in divide
+  uw = np.where(rng>0,(Hh-np.maximum(O,C))/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:94: RuntimeWarning: invalid value encountered in divide
+  lw = np.where(rng>0,(np.minimum(O,C)-L)/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:95: RuntimeWarning: invalid value encountered in divide
+  bs = np.where(rng>0, body/rng, np.nan)
+SOLUSDT-5m       events= 40427 hit2=0.565 hitH=0.903 e2=0.867 med_t=2.0
+SOLUSDT-15m      events= 13537 hit2=0.565 hitH=0.908 e2=0.872 med_t=2.0
+SOLUSDT-30m      events=  6817 hit2=0.547 hitH=0.905 e2=0.869 med_t=2.0
+SOLUSDT-1h       events=  3324 hit2=0.550 hitH=0.907 e2=0.871 med_t=2.0
+SOLUSDT-4h       events=   839 hit2=0.565 hitH=0.933 e2=0.900 med_t=2.0
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:93: RuntimeWarning: invalid value encountered in divide
+  uw = np.where(rng>0,(Hh-np.maximum(O,C))/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:94: RuntimeWarning: invalid value encountered in divide
+  lw = np.where(rng>0,(np.minimum(O,C)-L)/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:95: RuntimeWarning: invalid value encountered in divide
+  bs = np.where(rng>0, body/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:99: RuntimeWarning: divide by zero encountered in divide
+  rx = rng/atr14
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:99: RuntimeWarning: invalid value encountered in divide
+  rx = rng/atr14
+ICPUSDT-5m       events= 37197 hit2=0.562 hitH=0.903 e2=0.872 med_t=2.0
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:93: RuntimeWarning: invalid value encountered in divide
+  uw = np.where(rng>0,(Hh-np.maximum(O,C))/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:94: RuntimeWarning: invalid value encountered in divide
+  lw = np.where(rng>0,(np.minimum(O,C)-L)/rng, np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4a_atlas.py:95: RuntimeWarning: invalid value encountered in divide
+  bs = np.where(rng>0, body/rng, np.nan)
+ICPUSDT-15m      events= 12953 hit2=0.561 hitH=0.905 e2=0.870 med_t=2.0
+ICPUSDT-30m      events=  6512 hit2=0.566 hitH=0.908 e2=0.870 med_t=2.0
+ICPUSDT-1h       events=  3260 hit2=0.574 hitH=0.911 e2=0.871 med_t=2.0
+ICPUSDT-4h       events=   819 hit2=0.524 hitH=0.877 e2=0.835 med_t=2.0
+BTCUSDT-15m      events= 13282 hit2=0.574 hitH=0.914 e2=0.877 med_t=2.0
+BTCUSDT-1h       events=  3365 hit2=0.549 hitH=0.922 e2=0.892 med_t=2.0
+ETHUSDT-1h       events=  3328 hit2=0.547 hitH=0.924 e2=0.894 med_t=2.0
+
+Atlas event tables ->  C:\Users\A\Bullish-Fill-Wick\V2\outputs\atlas

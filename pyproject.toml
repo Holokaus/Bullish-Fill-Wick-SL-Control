@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bullish-fill-wick"
+version = "2.0.0"
+description = "OPERATION FILLPOINT — upper-wick-fill statistical study & frozen candidate (Bybit USDT-perp)"
+readme = "META_VERDICT.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas==3.0.5",
+    "numpy==2.4.3",
+    "scipy==1.17.1",
+    "matplotlib==3.11.1",
+]
+
+[project.optional-dependencies]
+alpha = ["lightgbm", "shap", "pyarrow"]   # Section 6, deferred
+
+[tool.setuptools]
+packages = ["src.lib"]

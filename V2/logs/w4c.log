@@ -1,0 +1,43 @@
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:84: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:85: RuntimeWarning: invalid value encountered in divide
+  lw=np.where(rng_>0,(np.minimum(O,C)-L)/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:86: RuntimeWarning: invalid value encountered in divide
+  bs_=np.where(rng_>0,np.abs(C-O)/rng_,np.nan)
+SOLUSDT-5m done
+SOLUSDT-15m done
+SOLUSDT-30m done
+SOLUSDT-1h done
+SOLUSDT-4h done
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:84: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:85: RuntimeWarning: invalid value encountered in divide
+  lw=np.where(rng_>0,(np.minimum(O,C)-L)/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:86: RuntimeWarning: invalid value encountered in divide
+  bs_=np.where(rng_>0,np.abs(C-O)/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:88: RuntimeWarning: divide by zero encountered in divide
+  rx=rng_/atr14
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:88: RuntimeWarning: invalid value encountered in divide
+  rx=rng_/atr14
+ICPUSDT-5m done
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:84: RuntimeWarning: invalid value encountered in divide
+  uw=np.where(rng_>0,(Hh-np.maximum(O,C))/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:85: RuntimeWarning: invalid value encountered in divide
+  lw=np.where(rng_>0,(np.minimum(O,C)-L)/rng_,np.nan)
+C:\Users\A\Bullish-Fill-Wick\V2\scripts\w4c_economics.py:86: RuntimeWarning: invalid value encountered in divide
+  bs_=np.where(rng_>0,np.abs(C-O)/rng_,np.nan)
+ICPUSDT-15m done
+ICPUSDT-30m done
+ICPUSDT-1h done
+ICPUSDT-4h done
+BTCUSDT-15m done
+BTCUSDT-1h done
+ETHUSDT-1h done
+
+=== CELLS WITH CI>0 UNDER MAKER, sorted by net_maker ===
+Empty DataFrame
+Columns: [series, cond, entry, f, sl, N, net_taker, net_maker, ci_lo_m, ci_hi_m, wr, pf, sig_maker]
+Index: []
+
+total cells=936, CI>0 maker=0, CI>0 count by cond:
+Series([], )

@@ -1,0 +1,131 @@
+E1 P1 levels (wick units) = winners' MAE P95/P97.5/P99 = 11.59/15.19/23.19
+E1 P4 K (h) = hazard-collapse=88 (surv=0.90), winners' time-to-fill P90=24, P95=42
+E1 P5 activation (wick units) = losers' MFE P90 = 1.69
+E1 baseline net = 20.76 bps/trade, maxDD=22.1%, worst=-7516.4 bps
+E2 P1 levels (wick units) = winners' MAE P95/P97.5/P99 = 11.73/15.71/21.66
+E2 P4 K (h) = hazard-collapse=83 (surv=0.90), winners' time-to-fill P90=28, P95=48
+E2 P5 activation (wick units) = losers' MFE P90 = 1.76
+E2 baseline net = 10.26 bps/trade, maxDD=4.4%, worst=-2134.6 bps
+E3 P1 levels (wick units) = winners' MAE P95/P97.5/P99 = 8.96/11.39/14.74
+E3 P4 K (h) = hazard-collapse=73 (surv=0.83), winners' time-to-fill P90=42, P95=57
+E3 P5 activation (wick units) = losers' MFE P90 = 1.76
+E3 baseline net = 20.42 bps/trade, maxDD=3.8%, worst=-2671.2 bps
+E4 P1 levels (wick units) = winners' MAE P95/P97.5/P99 = 6.80/8.96/14.17
+E4 P4 K (h) = hazard-collapse=1 (surv=0.22), winners' time-to-fill P90=52, P95=72
+E4 P5 activation (wick units) = losers' MFE P90 = 2.27
+E4 baseline net = 48.72 bps/trade, maxDD=7.5%, worst=-6857.1 bps
+
+=== SL STUDY (selected cols) ===
+row           policy    n  win   net  monthly  maxdd  retention   worst
+ E1    P1_wickSL_P95 6420 86.1  2.69    617.1   12.9       13.0 -5945.2
+ E1  P1_wickSL_P97.5 6420 88.3  7.77   1780.9   14.1       37.4 -6428.5
+ E1    P1_wickSL_P99 6420 89.7 10.96   2512.3   15.8       52.8 -6702.3
+ E1 P4_timeSL_hazard 6420 90.2 20.69   4743.6   20.8       99.7 -6689.9
+ E1    P4_timeSL_P90 6420 82.3 12.44   2851.4   15.5       59.9 -6140.4
+ E1    P4_timeSL_P95 6420 86.5 24.90   5709.4   11.1      119.9 -5709.4
+ E1 P5_act_breakeven 6420 90.5 17.24   3952.8   19.1       83.0 -7479.2
+ E1    BASELINE_noSL 6420 90.6 20.76   4760.0   22.1      100.0 -7516.4
+ E2    P1_wickSL_P95 6101 86.6 -4.01   -873.2    7.9      -39.0 -1838.6
+ E2  P1_wickSL_P97.5 6101 88.8 -0.52   -113.1    5.2       -5.1 -1725.6
+ E2    P1_wickSL_P99 6101 90.2  2.77    603.4    5.0       27.0 -1897.5
+ E2 P4_timeSL_hazard 6101 90.3  9.22   2010.0    4.4       89.9 -2144.9
+ E2    P4_timeSL_P90 6101 82.9  1.47    319.6    5.4       14.3 -2047.4
+ E2    P4_timeSL_P95 6101 86.9  5.98   1303.2    4.0       58.3 -1292.5
+ E2 P5_act_breakeven 6101 91.3  7.99   1740.5    3.8       77.8 -2134.6
+ E2    BASELINE_noSL 6101 91.1 10.26   2236.2    4.4      100.0 -2134.6
+ E3    P1_wickSL_P95 2215 82.3  3.41    270.0    3.2       16.7 -2058.2
+ E3  P1_wickSL_P97.5 2215 84.6  9.08    718.3    3.1       44.5 -2612.5
+ E3    P1_wickSL_P99 2215 85.9 12.69   1004.1    3.7       62.2 -1780.7
+ E3 P4_timeSL_hazard 2215 84.1 14.77   1168.4    4.1       72.3 -2821.1
+ E3    P4_timeSL_P90 2215 79.0 13.94   1102.5    3.0       68.2 -2358.5
+ E3    P4_timeSL_P95 2215 82.4 17.44   1380.0    3.5       85.4 -2598.8
+ E3 P5_act_breakeven 2215 87.4 17.44   1379.4    3.8       85.4 -2671.2
+ E3    BASELINE_noSL 2215 86.8 20.42   1615.5    3.8      100.0 -2671.2
+ E4    P1_wickSL_P95 1470 75.0 17.15    900.5    5.2       35.2 -3612.2
+ E4  P1_wickSL_P97.5 1470 77.0 23.95   1257.5    5.8       49.2 -3837.4
+ E4    P1_wickSL_P99 1470 78.3 31.68   1663.2    7.0       65.0 -6058.9
+ E4 P4_timeSL_hazard 1470 54.6  8.71    457.3    1.9       17.9 -2366.0
+ E4    P4_timeSL_P90 1470 73.7 38.80   2037.0    5.3       79.6 -4638.9
+ E4    P4_timeSL_P95 1470 77.0 46.22   2426.5    6.5       94.9 -6590.9
+ E4 P5_act_breakeven 1470 79.9 49.67   2607.5    7.2      102.0 -6857.1
+ E4    BASELINE_noSL 1470 79.0 48.72   2557.6    7.5      100.0 -6857.1
+E1 P1_wickSL_P95: retention=13.0% (>=80:False) maxDD 12.9<=16.575000000000003?True worst -5945.2>=-7516.4?True -> VIABLE=False
+E1 P1_wickSL_P97.5: retention=37.4% (>=80:False) maxDD 14.1<=16.575000000000003?True worst -6428.5>=-7516.4?True -> VIABLE=False
+E1 P1_wickSL_P99: retention=52.8% (>=80:False) maxDD 15.8<=16.575000000000003?True worst -6702.3>=-7516.4?True -> VIABLE=False
+E1 P4_timeSL_hazard: retention=99.7% (>=80:True) maxDD 20.8<=16.575000000000003?False worst -6689.9>=-7516.4?True -> VIABLE=False
+E1 P4_timeSL_P90: retention=59.9% (>=80:False) maxDD 15.5<=16.575000000000003?True worst -6140.4>=-7516.4?True -> VIABLE=False
+E1 P4_timeSL_P95: retention=119.9% (>=80:True) maxDD 11.1<=16.575000000000003?True worst -5709.4>=-7516.4?True -> VIABLE=True
+E1 P5_act_breakeven: retention=83.0% (>=80:True) maxDD 19.1<=16.575000000000003?False worst -7479.2>=-7516.4?True -> VIABLE=False
+E2 P1_wickSL_P95: retention=-39.0% (>=80:False) maxDD 7.9<=3.3000000000000003?False worst -1838.6>=-2134.6?True -> VIABLE=False
+E2 P1_wickSL_P97.5: retention=-5.1% (>=80:False) maxDD 5.2<=3.3000000000000003?False worst -1725.6>=-2134.6?True -> VIABLE=False
+E2 P1_wickSL_P99: retention=27.0% (>=80:False) maxDD 5.0<=3.3000000000000003?False worst -1897.5>=-2134.6?True -> VIABLE=False
+E2 P4_timeSL_hazard: retention=89.9% (>=80:True) maxDD 4.4<=3.3000000000000003?False worst -2144.9>=-2134.6?False -> VIABLE=False
+E2 P4_timeSL_P90: retention=14.3% (>=80:False) maxDD 5.4<=3.3000000000000003?False worst -2047.4>=-2134.6?True -> VIABLE=False
+E2 P4_timeSL_P95: retention=58.3% (>=80:False) maxDD 4.0<=3.3000000000000003?False worst -1292.5>=-2134.6?True -> VIABLE=False
+E2 P5_act_breakeven: retention=77.8% (>=80:False) maxDD 3.8<=3.3000000000000003?False worst -2134.6>=-2134.6?False -> VIABLE=False
+E3 P1_wickSL_P95: retention=16.7% (>=80:False) maxDD 3.2<=2.8499999999999996?False worst -2058.2>=-2671.2?True -> VIABLE=False
+E3 P1_wickSL_P97.5: retention=44.5% (>=80:False) maxDD 3.1<=2.8499999999999996?False worst -2612.5>=-2671.2?True -> VIABLE=False
+E3 P1_wickSL_P99: retention=62.2% (>=80:False) maxDD 3.7<=2.8499999999999996?False worst -1780.7>=-2671.2?True -> VIABLE=False
+E3 P4_timeSL_hazard: retention=72.3% (>=80:False) maxDD 4.1<=2.8499999999999996?False worst -2821.1>=-2671.2?False -> VIABLE=False
+E3 P4_timeSL_P90: retention=68.2% (>=80:False) maxDD 3.0<=2.8499999999999996?False worst -2358.5>=-2671.2?True -> VIABLE=False
+E3 P4_timeSL_P95: retention=85.4% (>=80:True) maxDD 3.5<=2.8499999999999996?False worst -2598.8>=-2671.2?True -> VIABLE=False
+E3 P5_act_breakeven: retention=85.4% (>=80:True) maxDD 3.8<=2.8499999999999996?False worst -2671.2>=-2671.2?False -> VIABLE=False
+E4 P1_wickSL_P95: retention=35.2% (>=80:False) maxDD 5.2<=5.625?True worst -3612.2>=-6857.1?True -> VIABLE=False
+E4 P1_wickSL_P97.5: retention=49.2% (>=80:False) maxDD 5.8<=5.625?False worst -3837.4>=-6857.1?True -> VIABLE=False
+E4 P1_wickSL_P99: retention=65.0% (>=80:False) maxDD 7.0<=5.625?False worst -6058.9>=-6857.1?True -> VIABLE=False
+E4 P4_timeSL_hazard: retention=17.9% (>=80:False) maxDD 1.9<=5.625?True worst -2366.0>=-6857.1?True -> VIABLE=False
+E4 P4_timeSL_P90: retention=79.6% (>=80:False) maxDD 5.3<=5.625?True worst -4638.9>=-6857.1?True -> VIABLE=False
+E4 P4_timeSL_P95: retention=94.9% (>=80:True) maxDD 6.5<=5.625?False worst -6590.9>=-6857.1?True -> VIABLE=False
+E4 P5_act_breakeven: retention=102.0% (>=80:True) maxDD 7.2<=5.625?False worst -6857.1>=-6857.1?False -> VIABLE=False
+wrote V2/outputs/sl_deriv.txt
+
+BH q=0.05 across 28 SL cells: 14 significant
+  E1 P1_wickSL_P95: p=0.5869 BHsig=False
+  E1 P1_wickSL_P97.5: p=0.138 BHsig=False
+  E1 P1_wickSL_P99: p=0.04971 BHsig=False
+  E1 P4_timeSL_hazard: p=0.0004025 BHsig=True
+  E1 P4_timeSL_P90: p=0.01105 BHsig=True
+  E1 P4_timeSL_P95: p=7.513e-08 BHsig=True
+  E1 P5_act_breakeven: p=0.002129 BHsig=True
+  E2 P1_wickSL_P95: p=0.06049 BHsig=False
+  E2 P1_wickSL_P97.5: p=0.8176 BHsig=False
+  E2 P1_wickSL_P99: p=0.2388 BHsig=False
+  E2 P4_timeSL_hazard: p=2.855e-05 BHsig=True
+  E2 P4_timeSL_P90: p=0.4454 BHsig=False
+  E2 P4_timeSL_P95: p=0.002231 BHsig=True
+  E2 P5_act_breakeven: p=0.0001667 BHsig=True
+  E3 P1_wickSL_P95: p=0.5266 BHsig=False
+  E3 P1_wickSL_P97.5: p=0.108 BHsig=False
+  E3 P1_wickSL_P99: p=0.03081 BHsig=False
+  E3 P4_timeSL_hazard: p=0.01178 BHsig=True
+  E3 P4_timeSL_P90: p=0.004784 BHsig=True
+  E3 P4_timeSL_P95: p=0.001139 BHsig=True
+  E3 P5_act_breakeven: p=0.002784 BHsig=True
+  E4 P1_wickSL_P95: p=0.2124 BHsig=False
+  E4 P1_wickSL_P97.5: p=0.09613 BHsig=False
+  E4 P1_wickSL_P99: p=0.04021 BHsig=False
+  E4 P4_timeSL_hazard: p=0.2371 BHsig=False
+  E4 P4_timeSL_P90: p=0.003031 BHsig=True
+  E4 P4_timeSL_P95: p=0.001231 BHsig=True
+  E4 P5_act_breakeven: p=0.0007809 BHsig=True
+Union ledger rebuilt by rebuild_ledger.py (writes V2/outputs/union_ledger.json).
+
+=== STAGE S2_entry_grid  2026-08-31T15:41:03 ===
+  OK  -> S2_entry_grid.log (106 chars)
+
+=== STAGE S3_integrity  2026-08-31T15:41:17 ===
+  OK  -> S3_integrity.log (270 chars)
+
+=== STAGE S4_exit_study  2026-08-31T15:42:02 ===
+  OK  -> S4_exit_study.log (4232 chars)
+
+=== STAGE S5_menu  2026-08-31T15:42:07 ===
+  OK  -> S5_menu.log (0 chars)
+
+=== SUMMARY ===
+  S2_entry_grid: OK
+  S3_integrity: OK
+  S4_exit_study: OK
+  S5_menu: OK
+Outputs: C:\Users\A\Bullish-Fill-Wick-SL-Control\sandbox\outputs
+EXIT=0

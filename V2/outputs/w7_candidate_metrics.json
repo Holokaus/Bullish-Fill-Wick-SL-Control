@@ -1,0 +1,17 @@
+{
+ "n": 195,
+ "win_rate": 0.887,
+ "net_bp_per_trade": 95.69,
+ "cagr": 1.1422,
+ "maxdd": 0.4143,
+ "sharpe": 2.28,
+ "sortino": 0.88,
+ "calmar": 2.76,
+ "cost_bps": 11.5,
+ "k": 24,
+ "asset": "SOLUSDT",
+ "tf": "4h",
+ "cond": "C6_w9dip",
+ "entry": "MKT",
+ "f": 1.5
+}

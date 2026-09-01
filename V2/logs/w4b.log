@@ -1,0 +1,965 @@
+
+################ BTCUSDT-15m  (n=13282) ################
+BASE: hit2=0.574 hitH=0.914 ext1.5x=0.877 medT=2 medBounces=0.0 medMAE=12bps r24=+6.5bps
+-- A. wick decile dose-response
+                7: n= 1328 hit2=0.678 hitH=0.938 ext=0.913 T=  1 nb=0.0 mae=12 r24=+2.0
+                8: n= 3985 hit2=0.635 hitH=0.929 ext=0.898 T=  1 nb=0.0 mae=11 r24=+4.8
+                9: n= 3985 hit2=0.564 hitH=0.914 ext=0.877 T=  2 nb=0.0 mae=12 r24=+8.2
+               10: n= 3984 hit2=0.487 hitH=0.891 ext=0.843 T=  2 nb=0.0 mae=12 r24=+7.6
+-- B1. trend quintile
+                0: n= 2468 hit2=0.605 hitH=0.928 ext=0.889 T=  1 nb=0.0 mae=15 r24=+5.9
+                1: n= 2619 hit2=0.595 hitH=0.936 ext=0.904 T=  2 nb=0.0 mae=9 r24=+5.2
+                2: n= 2667 hit2=0.572 hitH=0.930 ext=0.898 T=  2 nb=0.0 mae=8 r24=+6.1
+                3: n= 2750 hit2=0.545 hitH=0.895 ext=0.859 T=  2 nb=0.0 mae=12 r24=-1.0
+                4: n= 2778 hit2=0.556 hitH=0.883 ext=0.837 T=  1 nb=0.0 mae=18 r24=+13.4
+-- B2. SMA50 alignment
+               -1: n= 5380 hit2=0.601 hitH=0.935 ext=0.901 T=  1 nb=0.0 mae=11 r24=+1.9
+                0: n=    4 hit2=0.000 hitH=1.000 ext=1.000 T=  6 nb=0.0 mae=93 r24=+248.2
+                1: n= 7898 hit2=0.555 hitH=0.899 ext=0.860 T=  2 nb=0.0 mae=12 r24=+7.2
+-- C. prior candle dir
+               -1: n= 6229 hit2=0.609 hitH=0.930 ext=0.893 T=  1 nb=0.0 mae=10 r24=+6.0
+                0: n=   16 hit2=0.438 hitH=0.938 ext=0.875 T=  3 nb=0.0 mae=22 r24=+7.6
+                1: n= 7037 hit2=0.543 hitH=0.899 ext=0.862 T=  2 nb=0.0 mae=13 r24=+5.1
+-- D. volume quintile
+                0: n= 2679 hit2=0.660 hitH=0.944 ext=0.918 T=  1 nb=0.0 mae=9 r24=-0.9
+                1: n= 2672 hit2=0.623 hitH=0.943 ext=0.915 T=  1 nb=0.0 mae=10 r24=+7.6
+                2: n= 2573 hit2=0.590 hitH=0.928 ext=0.899 T=  2 nb=0.0 mae=11 r24=+5.5
+                3: n= 2534 hit2=0.556 hitH=0.912 ext=0.873 T=  2 nb=0.0 mae=12 r24=+13.0
+                4: n= 2824 hit2=0.444 hitH=0.845 ext=0.784 T=  2 nb=0.0 mae=17 r24=+4.3
+-- E. candle type
+                1: n=10257 hit2=0.554 hitH=0.908 ext=0.869 T=  2 nb=0.0 mae=12 r24=+6.1
+                2: n= 3025 hit2=0.640 hitH=0.933 ext=0.901 T=  1 nb=0.0 mae=12 r24=+8.5
+-- G1. session block
+                0: n= 3161 hit2=0.569 hitH=0.912 ext=0.877 T=  2 nb=0.0 mae=10 r24=+2.4
+                1: n= 3247 hit2=0.590 hitH=0.945 ext=0.916 T=  2 nb=0.0 mae=11 r24=+6.1
+                2: n= 3378 hit2=0.569 hitH=0.895 ext=0.852 T=  2 nb=0.0 mae=15 r24=+9.2
+                3: n= 3496 hit2=0.567 hitH=0.905 ext=0.863 T=  2 nb=0.0 mae=12 r24=+6.5
+-- G2. day of week
+                0: n= 1898 hit2=0.574 hitH=0.923 ext=0.894 T=  2 nb=0.0 mae=9 r24=+5.6
+                1: n= 1896 hit2=0.562 hitH=0.907 ext=0.871 T=  2 nb=0.0 mae=13 r24=+14.6
+                2: n= 1876 hit2=0.585 hitH=0.920 ext=0.881 T=  2 nb=0.0 mae=13 r24=+9.3
+                3: n= 1873 hit2=0.581 hitH=0.914 ext=0.876 T=  1 nb=0.0 mae=15 r24=+7.5
+                4: n= 1932 hit2=0.574 hitH=0.908 ext=0.870 T=  2 nb=0.0 mae=13 r24=-5.6
+                5: n= 1933 hit2=0.589 hitH=0.915 ext=0.872 T=  1 nb=0.0 mae=12 r24=+8.3
+                6: n= 1874 hit2=0.549 hitH=0.910 ext=0.873 T=  2 nb=0.0 mae=9 r24=+1.5
+-- H. BTC regime
+                0: n=   57 hit2=0.614 hitH=0.965 ext=0.947 T=  1 nb=0.0 mae=14 r24=-42.5
+                1: n= 7497 hit2=0.566 hitH=0.911 ext=0.869 T=  2 nb=0.0 mae=11 r24=+3.6
+                2: n= 5728 hit2=0.583 hitH=0.917 ext=0.885 T=  2 nb=0.0 mae=14 r24=+10.7
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=7: n=1328 hitH=0.938 (Δ+0.027, q=0.001) ext=0.913 r24=+2.0
+   * uwd=8: n=3985 hitH=0.929 (Δ+0.021, q=0.000) ext=0.898 r24=+4.8
+   * uwd=10: n=3984 hitH=0.891 (Δ-0.033, q=0.000) ext=0.843 r24=+7.6
+   * uwd_ge=8: n=11954 hitH=0.911 (Δ-0.027, q=0.001) ext=0.873 r24=+6.0
+   * uwd_ge=9: n=7969 hitH=0.902 (Δ-0.029, q=0.000) ext=0.860 r24=+7.2
+   * uwd_ge=10: n=3984 hitH=0.891 (Δ-0.033, q=0.000) ext=0.843 r24=+7.6
+   * trend=0: n=2468 hitH=0.928 (Δ+0.017, q=0.007) ext=0.889 r24=+5.9
+   * trend=1: n=2619 hitH=0.936 (Δ+0.028, q=0.000) ext=0.904 r24=+5.2
+   * trend=2: n=2667 hitH=0.930 (Δ+0.021, q=0.001) ext=0.898 r24=+6.1
+   * trend=3: n=2750 hitH=0.895 (Δ-0.023, q=0.000) ext=0.859 r24=-1.0
+   * trend=4: n=2778 hitH=0.883 (Δ-0.039, q=0.000) ext=0.837 r24=+13.4
+   * trend_ge=1: n=10814 hitH=0.911 (Δ-0.017, q=0.007) ext=0.874 r24=+5.5
+   * trend_ge=2: n=8195 hitH=0.902 (Δ-0.030, q=0.000) ext=0.864 r24=+6.5
+   * trend_ge=3: n=5528 hitH=0.889 (Δ-0.043, q=0.000) ext=0.848 r24=+7.3
+   * smaal=-1: n=5380 hitH=0.935 (Δ+0.035, q=0.000) ext=0.901 r24=+1.9
+   * smaal=1: n=7898 hitH=0.899 (Δ-0.035, q=0.000) ext=0.860 r24=+7.2
+   * prev=-1: n=6229 hitH=0.930 (Δ+0.031, q=0.000) ext=0.893 r24=+6.0
+   * prev=1: n=7037 hitH=0.899 (Δ-0.031, q=0.000) ext=0.862 r24=+5.1
+   * volq=0: n=2679 hitH=0.944 (Δ+0.038, q=0.000) ext=0.918 r24=-0.9
+   * volq=1: n=2672 hitH=0.943 (Δ+0.037, q=0.000) ext=0.915 r24=+7.6
+   * volq=2: n=2573 hitH=0.928 (Δ+0.018, q=0.004) ext=0.899 r24=+5.5
+   * volq=4: n=2824 hitH=0.845 (Δ-0.088, q=0.000) ext=0.784 r24=+4.3
+   * volq_ge=2: n=7931 hitH=0.893 (Δ-0.050, q=0.000) ext=0.850 r24=+7.2
+   * volq_ge=3: n=5358 hitH=0.877 (Δ-0.062, q=0.000) ext=0.826 r24=+7.9
+   * typ=1: n=10257 hitH=0.908 (Δ-0.025, q=0.000) ext=0.869 r24=+6.1
+   * typ=2: n=3025 hitH=0.933 (Δ+0.025, q=0.000) ext=0.901 r24=+8.5
+   * rng_q=0: n=3121 hitH=0.951 (Δ+0.049, q=0.000) ext=0.930 r24=+2.6
+   * rng_q=1: n=2900 hitH=0.935 (Δ+0.027, q=0.000) ext=0.906 r24=+6.0
+   * rng_q=2: n=2570 hitH=0.928 (Δ+0.018, q=0.004) ext=0.892 r24=+10.5
+   * rng_q=4: n=2337 hitH=0.827 (Δ-0.106, q=0.000) ext=0.763 r24=+3.3
+-- J. combo gates
+   C1_wick8_trend_up: n=4981 hit2=0.537 hitH=0.885 ext=0.842 T=2 r24=+7.8 (rest hitH=0.931)
+   C2_wick8_sma_above: n=7124 hit2=0.544 hitH=0.897 ext=0.855 T=2 r24=+8.3 (rest hitH=0.934)
+   C3_wick8_quietvol: n=4788 hit2=0.631 hitH=0.943 ext=0.914 T=1 r24=+3.5 (rest hitH=0.898)
+   C4_wick8_bear_regime: n=48 hit2=0.646 hitH=0.958 ext=0.938 T=1 r24=-36.4 (rest hitH=0.914)
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=3012 hit2=0.560 hitH=0.925 ext=0.885 T=2 r24=+8.7 (rest hitH=0.911)
+
+################ BTCUSDT-1h  (n=3365) ################
+BASE: hit2=0.549 hitH=0.922 ext1.5x=0.892 medT=2 medBounces=0.0 medMAE=26bps r24=+25.4bps
+-- A. wick decile dose-response
+                7: n=  337 hit2=0.617 hitH=0.935 ext=0.920 T=  1 nb=0.0 mae=23 r24=+18.6
+                8: n= 1010 hit2=0.606 hitH=0.950 ext=0.924 T=  1 nb=0.0 mae=22 r24=+35.0
+                9: n= 1010 hit2=0.546 hitH=0.922 ext=0.880 T=  2 nb=0.0 mae=27 r24=+27.3
+               10: n= 1008 hit2=0.472 hitH=0.892 ext=0.863 T=  2 nb=0.0 mae=28 r24=+23.3
+-- B1. trend quintile
+                0: n=  625 hit2=0.586 hitH=0.930 ext=0.909 T=  2 nb=0.0 mae=30 r24=+16.5
+                1: n=  662 hit2=0.573 hitH=0.932 ext=0.909 T=  2 nb=0.0 mae=19 r24=+4.5
+                2: n=  743 hit2=0.556 hitH=0.949 ext=0.921 T=  2 nb=0.0 mae=20 r24=+23.4
+                3: n=  677 hit2=0.523 hitH=0.911 ext=0.892 T=  2 nb=0.0 mae=28 r24=+48.0
+                4: n=  658 hit2=0.509 hitH=0.888 ext=0.827 T=  2 nb=0.0 mae=36 r24=+38.7
+-- B2. SMA50 alignment
+               -1: n= 1364 hit2=0.561 hitH=0.938 ext=0.914 T=  2 nb=0.0 mae=24 r24=+18.1
+                0: n=    7 hit2=0.571 hitH=1.000 ext=1.000 T=  1 nb=0.0 mae=13 r24=+53.7
+                1: n= 1994 hit2=0.541 hitH=0.912 ext=0.877 T=  2 nb=0.0 mae=27 r24=+32.3
+-- C. prior candle dir
+               -1: n= 1549 hit2=0.578 hitH=0.937 ext=0.909 T=  2 nb=0.0 mae=23 r24=+29.9
+                1: n= 1816 hit2=0.524 hitH=0.910 ext=0.878 T=  2 nb=0.0 mae=28 r24=+24.5
+-- D. volume quintile
+                0: n=  717 hit2=0.649 hitH=0.961 ext=0.937 T=  1 nb=0.0 mae=16 r24=+13.3
+                1: n=  650 hit2=0.631 hitH=0.951 ext=0.926 T=  1 nb=0.0 mae=20 r24=+45.8
+                2: n=  676 hit2=0.559 hitH=0.932 ext=0.914 T=  2 nb=0.0 mae=26 r24=+19.8
+                3: n=  675 hit2=0.504 hitH=0.910 ext=0.871 T=  2 nb=0.0 mae=33 r24=+14.9
+                4: n=  647 hit2=0.393 hitH=0.855 ext=0.807 T=  3 nb=0.0 mae=42 r24=+46.3
+-- E. candle type
+                1: n= 2629 hit2=0.527 hitH=0.916 ext=0.885 T=  2 nb=0.0 mae=26 r24=+29.4
+                2: n=  736 hit2=0.626 hitH=0.946 ext=0.917 T=  1 nb=0.0 mae=24 r24=+21.6
+-- G1. session block
+                0: n=  804 hit2=0.494 hitH=0.918 ext=0.892 T=  2 nb=0.0 mae=23 r24=+19.0
+                1: n=  834 hit2=0.567 hitH=0.940 ext=0.915 T=  2 nb=0.0 mae=23 r24=+31.4
+                2: n=  789 hit2=0.559 hitH=0.905 ext=0.868 T=  2 nb=0.0 mae=32 r24=+23.4
+                3: n=  938 hit2=0.571 hitH=0.925 ext=0.892 T=  2 nb=0.0 mae=25 r24=+32.9
+-- G2. day of week
+                0: n=  538 hit2=0.572 hitH=0.950 ext=0.924 T=  2 nb=0.0 mae=18 r24=+22.1
+                1: n=  450 hit2=0.529 hitH=0.911 ext=0.891 T=  2 nb=0.0 mae=35 r24=+68.4
+                2: n=  466 hit2=0.579 hitH=0.923 ext=0.884 T=  2 nb=0.0 mae=28 r24=+26.5
+                3: n=  449 hit2=0.572 hitH=0.922 ext=0.893 T=  2 nb=0.0 mae=26 r24=+22.7
+                4: n=  472 hit2=0.544 hitH=0.903 ext=0.862 T=  2 nb=0.0 mae=31 r24=+2.2
+                5: n=  461 hit2=0.534 hitH=0.898 ext=0.859 T=  2 nb=0.0 mae=27 r24=+34.1
+                6: n=  529 hit2=0.512 hitH=0.943 ext=0.922 T=  2 nb=0.0 mae=19 r24=+15.9
+-- H. BTC regime
+                0: n=   16 hit2=0.688 hitH=1.000 ext=1.000 T=  1 nb=0.0 mae=17 r24=-0.7
+                1: n= 1933 hit2=0.547 hitH=0.919 ext=0.890 T=  2 nb=0.0 mae=22 r24=+17.9
+                2: n= 1416 hit2=0.550 hitH=0.927 ext=0.893 T=  2 nb=0.0 mae=31 r24=+37.9
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=8: n=1010 hitH=0.950 (Δ+0.039, q=0.000) ext=0.924 r24=+35.0
+   * uwd=10: n=1008 hitH=0.892 (Δ-0.044, q=0.000) ext=0.863 r24=+23.3
+   * uwd_ge=9: n=2018 hitH=0.907 (Δ-0.039, q=0.000) ext=0.872 r24=+28.4
+   * uwd_ge=10: n=1008 hitH=0.892 (Δ-0.044, q=0.000) ext=0.863 r24=+23.3
+   * trend=2: n=743 hitH=0.949 (Δ+0.034, q=0.006) ext=0.921 r24=+23.4
+   * trend=4: n=658 hitH=0.888 (Δ-0.043, q=0.001) ext=0.827 r24=+38.7
+   * trend_ge=3: n=1335 hitH=0.900 (Δ-0.038, q=0.000) ext=0.860 r24=+38.4
+   * smaal=-1: n=1364 hitH=0.938 (Δ+0.026, q=0.012) ext=0.914 r24=+18.1
+   * smaal=1: n=1994 hitH=0.912 (Δ-0.026, q=0.011) ext=0.877 r24=+32.3
+   * prev=-1: n=1549 hitH=0.937 (Δ+0.026, q=0.009) ext=0.909 r24=+29.9
+   * prev=1: n=1816 hitH=0.910 (Δ-0.026, q=0.009) ext=0.878 r24=+24.5
+   * volq=0: n=717 hitH=0.961 (Δ+0.049, q=0.000) ext=0.937 r24=+13.3
+   * volq=1: n=650 hitH=0.951 (Δ+0.035, q=0.007) ext=0.926 r24=+45.8
+   * volq=4: n=647 hitH=0.855 (Δ-0.084, q=0.000) ext=0.807 r24=+46.3
+   * volq_ge=2: n=1998 hitH=0.899 (Δ-0.057, q=0.000) ext=0.865 r24=+30.3
+   * volq_ge=3: n=1322 hitH=0.883 (Δ-0.065, q=0.000) ext=0.840 r24=+29.0
+   * typ=1: n=2629 hitH=0.916 (Δ-0.030, q=0.013) ext=0.885 r24=+29.4
+   * typ=2: n=736 hitH=0.946 (Δ+0.030, q=0.013) ext=0.917 r24=+21.6
+   * rng_q=0: n=799 hitH=0.962 (Δ+0.052, q=0.000) ext=0.936 r24=+26.9
+   * rng_q=1: n=703 hitH=0.946 (Δ+0.030, q=0.014) ext=0.929 r24=+46.9
+   * rng_q=3: n=619 hitH=0.897 (Δ-0.032, q=0.013) ext=0.866 r24=+36.8
+   * rng_q=4: n=577 hitH=0.844 (Δ-0.095, q=0.000) ext=0.789 r24=+31.6
+-- J. combo gates
+   C1_wick8_trend_up: n=1211 hit2=0.509 hitH=0.897 ext=0.855 T=2 r24=+38.1 (rest hitH=0.937)
+   C2_wick8_sma_above: n=1814 hit2=0.531 hitH=0.909 ext=0.872 T=2 r24=+28.6 (rest hitH=0.938)
+   C3_wick8_quietvol: n=1240 hit2=0.633 hitH=0.955 ext=0.929 T=1 r24=+18.0 (rest hitH=0.904)
+   C4_wick8_bear_regime: n=14 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=763 hit2=0.545 hitH=0.917 ext=0.895 T=2 r24=+22.9 (rest hitH=0.924)
+
+################ ETHUSDT-1h  (n=3328) ################
+BASE: hit2=0.547 hitH=0.924 ext1.5x=0.894 medT=2 medBounces=0.0 medMAE=32bps r24=+14.0bps
+-- A. wick decile dose-response
+                7: n=  333 hit2=0.679 hitH=0.955 ext=0.937 T=  1 nb=0.0 mae=32 r24=+21.5
+                8: n=  997 hit2=0.598 hitH=0.938 ext=0.909 T=  2 nb=0.0 mae=32 r24=+12.7
+                9: n=  998 hit2=0.547 hitH=0.919 ext=0.892 T=  2 nb=0.0 mae=31 r24=+13.8
+               10: n= 1000 hit2=0.451 hitH=0.905 ext=0.868 T=  3 nb=0.0 mae=34 r24=+12.2
+-- B1. trend quintile
+                0: n=  586 hit2=0.602 hitH=0.937 ext=0.904 T=  2 nb=0.0 mae=39 r24=+26.1
+                1: n=  668 hit2=0.585 hitH=0.940 ext=0.910 T=  2 nb=0.0 mae=25 r24=-2.6
+                2: n=  699 hit2=0.524 hitH=0.917 ext=0.890 T=  2 nb=0.0 mae=27 r24=+18.3
+                3: n=  690 hit2=0.510 hitH=0.903 ext=0.872 T=  2 nb=0.0 mae=34 r24=+24.1
+                4: n=  685 hit2=0.521 hitH=0.926 ext=0.896 T=  2 nb=0.0 mae=42 r24=+29.5
+-- B2. SMA50 alignment
+               -1: n= 1347 hit2=0.584 hitH=0.935 ext=0.902 T=  2 nb=0.0 mae=30 r24=+10.1
+                0: n=    4 hit2=0.500 hitH=1.000 ext=1.000 T=  3 nb=0.5 mae=83 r24=+77.5
+                1: n= 1977 hit2=0.521 hitH=0.917 ext=0.889 T=  2 nb=0.0 mae=34 r24=+26.3
+-- C. prior candle dir
+               -1: n= 1548 hit2=0.568 hitH=0.935 ext=0.897 T=  2 nb=0.0 mae=32 r24=+17.4
+                1: n= 1780 hit2=0.528 hitH=0.915 ext=0.892 T=  2 nb=0.0 mae=33 r24=+17.9
+-- D. volume quintile
+                0: n=  698 hit2=0.643 hitH=0.947 ext=0.933 T=  1 nb=0.0 mae=25 r24=+13.1
+                1: n=  670 hit2=0.631 hitH=0.955 ext=0.931 T=  2 nb=0.0 mae=26 r24=+27.4
+                2: n=  630 hit2=0.571 hitH=0.933 ext=0.913 T=  2 nb=0.0 mae=33 r24=+11.7
+                3: n=  665 hit2=0.489 hitH=0.916 ext=0.884 T=  2 nb=0.0 mae=42 r24=+20.6
+                4: n=  665 hit2=0.394 hitH=0.868 ext=0.809 T=  3 nb=0.0 mae=47 r24=+43.4
+-- E. candle type
+                1: n= 2579 hit2=0.528 hitH=0.919 ext=0.888 T=  2 nb=0.0 mae=32 r24=+19.2
+                2: n=  749 hit2=0.610 hitH=0.940 ext=0.916 T=  2 nb=0.0 mae=33 r24=+20.9
+-- G1. session block
+                0: n=  799 hit2=0.514 hitH=0.926 ext=0.909 T=  2 nb=0.0 mae=31 r24=+11.9
+                1: n=  872 hit2=0.568 hitH=0.933 ext=0.913 T=  2 nb=0.0 mae=30 r24=+25.6
+                2: n=  791 hit2=0.551 hitH=0.917 ext=0.872 T=  2 nb=0.0 mae=39 r24=+5.2
+                3: n=  866 hit2=0.551 hitH=0.919 ext=0.882 T=  2 nb=0.0 mae=31 r24=+13.4
+-- G2. day of week
+                0: n=  480 hit2=0.525 hitH=0.929 ext=0.900 T=  2 nb=0.0 mae=27 r24=-13.1
+                1: n=  439 hit2=0.540 hitH=0.923 ext=0.904 T=  2 nb=0.0 mae=40 r24=+19.3
+                2: n=  462 hit2=0.524 hitH=0.918 ext=0.883 T=  2 nb=0.0 mae=39 r24=+18.3
+                3: n=  487 hit2=0.542 hitH=0.916 ext=0.895 T=  2 nb=0.0 mae=35 r24=+42.6
+                4: n=  476 hit2=0.576 hitH=0.933 ext=0.891 T=  2 nb=0.0 mae=33 r24=+10.2
+                5: n=  475 hit2=0.577 hitH=0.905 ext=0.861 T=  2 nb=0.0 mae=32 r24=+25.4
+                6: n=  509 hit2=0.542 hitH=0.943 ext=0.923 T=  2 nb=0.0 mae=25 r24=-3.7
+-- H. BTC regime
+                0: n=   26 hit2=0.769 hitH=1.000 ext=1.000 T=  1 nb=0.0 mae=22 r24=+63.5
+                1: n= 1858 hit2=0.531 hitH=0.915 ext=0.881 T=  2 nb=0.0 mae=30 r24=+0.5
+                2: n= 1444 hit2=0.563 hitH=0.934 ext=0.910 T=  2 nb=0.0 mae=36 r24=+35.6
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=10: n=1000 hitH=0.905 (Δ-0.027, q=0.026) ext=0.868 r24=+12.2
+   * uwd_ge=9: n=1998 hitH=0.912 (Δ-0.030, q=0.006) ext=0.880 r24=+19.5
+   * uwd_ge=10: n=1000 hitH=0.905 (Δ-0.027, q=0.026) ext=0.868 r24=+12.2
+   * trend_ge=2: n=2074 hitH=0.915 (Δ-0.023, q=0.042) ext=0.886 r24=+17.3
+   * volq=0: n=698 hitH=0.947 (Δ+0.029, q=0.035) ext=0.933 r24=+13.1
+   * volq=1: n=670 hitH=0.955 (Δ+0.039, q=0.004) ext=0.931 r24=+27.4
+   * volq=4: n=665 hitH=0.868 (Δ-0.070, q=0.000) ext=0.809 r24=+43.4
+   * volq_ge=2: n=1960 hitH=0.905 (Δ-0.046, q=0.000) ext=0.868 r24=+22.1
+   * volq_ge=3: n=1330 hitH=0.892 (Δ-0.054, q=0.000) ext=0.847 r24=+25.8
+   * rng_q=0: n=782 hitH=0.957 (Δ+0.043, q=0.001) ext=0.945 r24=+7.1
+   * rng_q=4: n=583 hitH=0.847 (Δ-0.093, q=0.000) ext=0.779 r24=+37.5
+-- J. combo gates
+   C1_wick8_trend_up: n=1251 hit2=0.503 hitH=0.911 ext=0.880 T=2 r24=+18.6 (rest hitH=0.932)
+   C2_wick8_sma_above: n=1783 hit2=0.508 hitH=0.913 ext=0.884 T=2 r24=+28.6 (rest hitH=0.937)
+   C3_wick8_quietvol: n=1207 hit2=0.624 hitH=0.948 ext=0.930 T=2 r24=+9.4 (rest hitH=0.910)
+   C4_wick8_bear_regime: n=19 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=726 hit2=0.539 hitH=0.924 ext=0.891 T=2 r24=-6.1 (rest hitH=0.924)
+
+################ ICPUSDT-15m  (n=12953) ################
+BASE: hit2=0.561 hitH=0.905 ext1.5x=0.870 medT=2 medBounces=0.0 medMAE=29bps r24=+1.9bps
+-- A. wick decile dose-response
+                7: n= 1458 hit2=0.626 hitH=0.919 ext=0.900 T=  1 nb=0.0 mae=27 r24=-16.1
+                8: n= 3751 hit2=0.628 hitH=0.919 ext=0.890 T=  1 nb=0.0 mae=27 r24=+2.4
+                9: n= 3891 hit2=0.553 hitH=0.903 ext=0.871 T=  2 nb=0.0 mae=29 r24=+2.7
+               10: n= 3853 hit2=0.479 hitH=0.887 ext=0.839 T=  2 nb=0.0 mae=31 r24=+2.7
+-- B1. trend quintile
+                0: n= 2623 hit2=0.581 hitH=0.923 ext=0.889 T=  2 nb=0.0 mae=34 r24=+12.1
+                1: n= 2590 hit2=0.565 hitH=0.914 ext=0.888 T=  2 nb=0.0 mae=24 r24=-1.3
+                2: n= 2550 hit2=0.550 hitH=0.901 ext=0.867 T=  2 nb=0.0 mae=24 r24=+5.4
+                3: n= 2593 hit2=0.553 hitH=0.898 ext=0.867 T=  2 nb=0.0 mae=25 r24=-6.8
+                4: n= 2597 hit2=0.555 hitH=0.886 ext=0.840 T=  2 nb=0.0 mae=42 r24=-8.0
+-- B2. SMA50 alignment
+               -1: n= 5795 hit2=0.574 hitH=0.918 ext=0.886 T=  2 nb=0.0 mae=27 r24=+5.8
+                0: n=    8 hit2=0.500 hitH=0.875 ext=0.875 T=  2 nb=0.0 mae=20 r24=-3.6
+                1: n= 7150 hit2=0.550 hitH=0.894 ext=0.857 T=  2 nb=0.0 mae=30 r24=+2.6
+-- C. prior candle dir
+               -1: n= 6398 hit2=0.575 hitH=0.913 ext=0.879 T=  2 nb=0.0 mae=28 r24=+7.3
+                0: n=  609 hit2=0.509 hitH=0.898 ext=0.885 T=  2 nb=0.0 mae=23 r24=+5.2
+                1: n= 5946 hit2=0.551 hitH=0.897 ext=0.859 T=  2 nb=0.0 mae=31 r24=-3.4
+-- D. volume quintile
+                0: n= 2394 hit2=0.604 hitH=0.923 ext=0.902 T=  1 nb=0.0 mae=23 r24=+2.9
+                1: n= 2635 hit2=0.598 hitH=0.915 ext=0.888 T=  1 nb=0.0 mae=26 r24=-1.9
+                2: n= 2601 hit2=0.581 hitH=0.915 ext=0.882 T=  2 nb=0.0 mae=29 r24=+4.3
+                3: n= 2657 hit2=0.553 hitH=0.904 ext=0.869 T=  2 nb=0.0 mae=33 r24=+7.3
+                4: n= 2666 hit2=0.474 hitH=0.869 ext=0.815 T=  2 nb=0.0 mae=38 r24=-5.2
+-- E. candle type
+                1: n=10223 hit2=0.542 hitH=0.899 ext=0.863 T=  2 nb=0.0 mae=29 r24=+5.5
+                2: n= 2730 hit2=0.632 hitH=0.924 ext=0.899 T=  1 nb=0.0 mae=28 r24=-0.5
+-- G1. session block
+                0: n= 3197 hit2=0.567 hitH=0.903 ext=0.874 T=  2 nb=0.0 mae=27 r24=+11.7
+                1: n= 3206 hit2=0.563 hitH=0.910 ext=0.876 T=  2 nb=0.0 mae=28 r24=-8.4
+                2: n= 3283 hit2=0.551 hitH=0.889 ext=0.849 T=  2 nb=0.0 mae=34 r24=+6.6
+                3: n= 3267 hit2=0.563 hitH=0.916 ext=0.882 T=  2 nb=0.0 mae=27 r24=+14.1
+-- G2. day of week
+                0: n= 1918 hit2=0.569 hitH=0.897 ext=0.856 T=  2 nb=0.0 mae=25 r24=-6.9
+                1: n= 1828 hit2=0.563 hitH=0.894 ext=0.858 T=  2 nb=0.0 mae=30 r24=-0.1
+                2: n= 1856 hit2=0.551 hitH=0.898 ext=0.878 T=  2 nb=0.0 mae=30 r24=-11.1
+                3: n= 1917 hit2=0.565 hitH=0.908 ext=0.866 T=  2 nb=0.0 mae=33 r24=-2.0
+                4: n= 1811 hit2=0.557 hitH=0.898 ext=0.865 T=  2 nb=0.0 mae=30 r24=-14.0
+                5: n= 1796 hit2=0.570 hitH=0.917 ext=0.887 T=  2 nb=0.0 mae=27 r24=+27.9
+                6: n= 1827 hit2=0.550 hitH=0.921 ext=0.885 T=  2 nb=0.0 mae=28 r24=+31.2
+-- H. BTC regime
+                0: n=   60 hit2=0.633 hitH=0.967 ext=0.933 T=  1 nb=0.0 mae=21 r24=-19.7
+                1: n= 7007 hit2=0.541 hitH=0.899 ext=0.869 T=  2 nb=0.0 mae=24 r24=-6.1
+                2: n= 5886 hit2=0.584 hitH=0.911 ext=0.871 T=  2 nb=0.0 mae=35 r24=+14.3
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=8: n=3751 hitH=0.919 (Δ+0.020, q=0.001) ext=0.890 r24=+2.4
+   * uwd=10: n=3853 hitH=0.887 (Δ-0.025, q=0.000) ext=0.839 r24=+2.7
+   * uwd_ge=9: n=7744 hitH=0.895 (Δ-0.024, q=0.000) ext=0.855 r24=+3.5
+   * uwd_ge=10: n=3853 hitH=0.887 (Δ-0.025, q=0.000) ext=0.839 r24=+2.7
+   * trend=0: n=2623 hitH=0.923 (Δ+0.024, q=0.001) ext=0.889 r24=+12.1
+   * trend=4: n=2597 hitH=0.886 (Δ-0.023, q=0.001) ext=0.840 r24=-8.0
+   * trend_ge=1: n=10330 hitH=0.900 (Δ-0.024, q=0.001) ext=0.866 r24=-2.8
+   * trend_ge=2: n=7740 hitH=0.895 (Δ-0.024, q=0.000) ext=0.858 r24=-0.8
+   * trend_ge=3: n=5190 hitH=0.892 (Δ-0.021, q=0.000) ext=0.854 r24=-2.8
+   * smaal=-1: n=5795 hitH=0.918 (Δ+0.024, q=0.000) ext=0.886 r24=+5.8
+   * smaal=1: n=7150 hitH=0.894 (Δ-0.024, q=0.000) ext=0.857 r24=+2.6
+   * prev=-1: n=6398 hitH=0.913 (Δ+0.016, q=0.004) ext=0.879 r24=+7.3
+   * prev=1: n=5946 hitH=0.897 (Δ-0.015, q=0.007) ext=0.859 r24=-3.4
+   * volq=0: n=2394 hitH=0.923 (Δ+0.022, q=0.002) ext=0.902 r24=+2.9
+   * volq=4: n=2666 hitH=0.869 (Δ-0.045, q=0.000) ext=0.815 r24=-5.2
+   * volq_ge=2: n=7924 hitH=0.896 (Δ-0.023, q=0.000) ext=0.855 r24=+5.6
+   * volq_ge=3: n=5323 hitH=0.886 (Δ-0.031, q=0.000) ext=0.842 r24=+2.2
+   * typ=1: n=10223 hitH=0.899 (Δ-0.025, q=0.000) ext=0.863 r24=+5.5
+   * typ=2: n=2730 hitH=0.924 (Δ+0.025, q=0.000) ext=0.899 r24=-0.5
+   * rng_q=0: n=3056 hitH=0.931 (Δ+0.035, q=0.000) ext=0.910 r24=+11.1
+   * rng_q=1: n=2882 hitH=0.918 (Δ+0.017, q=0.010) ext=0.894 r24=+6.4
+   * rng_q=2: n=2663 hitH=0.919 (Δ+0.018, q=0.010) ext=0.884 r24=-4.2
+   * rng_q=3: n=2326 hitH=0.893 (Δ-0.014, q=0.049) ext=0.856 r24=-4.7
+   * rng_q=4: n=2026 hitH=0.841 (Δ-0.076, q=0.000) ext=0.775 r24=-3.8
+   * reg=1: n=7007 hitH=0.899 (Δ-0.012, q=0.027) ext=0.869 r24=-6.1
+   * reg=2: n=5886 hitH=0.911 (Δ+0.011, q=0.046) ext=0.871 r24=+14.3
+-- J. combo gates
+   C1_wick8_trend_up: n=4614 hit2=0.546 hitH=0.890 ext=0.849 T=2 r24=+0.9 (rest hitH=0.913)
+   C2_wick8_sma_above: n=6352 hit2=0.541 hitH=0.891 ext=0.853 T=2 r24=+2.3 (rest hitH=0.918)
+   C3_wick8_quietvol: n=4470 hit2=0.593 hitH=0.916 ext=0.890 T=1 r24=+1.0 (rest hitH=0.899)
+   C4_wick8_bear_regime: n=53 hit2=0.604 hitH=0.962 ext=0.925 T=1 r24=-18.9 (rest hitH=0.904)
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=3100 hit2=0.529 hitH=0.913 ext=0.878 T=2 r24=+8.0 (rest hitH=0.902)
+
+################ ICPUSDT-1h  (n=3260) ################
+BASE: hit2=0.574 hitH=0.911 ext1.5x=0.871 medT=2 medBounces=0.0 medMAE=58bps r24=+11.0bps
+-- A. wick decile dose-response
+                7: n=  326 hit2=0.635 hitH=0.926 ext=0.896 T=  1 nb=0.0 mae=56 r24=+32.5
+                8: n=  976 hit2=0.630 hitH=0.922 ext=0.899 T=  1 nb=0.0 mae=59 r24=+18.7
+                9: n=  979 hit2=0.582 hitH=0.908 ext=0.866 T=  2 nb=0.0 mae=55 r24=+3.9
+               10: n=  979 hit2=0.490 hitH=0.899 ext=0.840 T=  2 nb=0.0 mae=63 r24=+30.2
+-- B1. trend quintile
+                0: n=  643 hit2=0.565 hitH=0.916 ext=0.882 T=  2 nb=0.0 mae=71 r24=-11.3
+                1: n=  638 hit2=0.597 hitH=0.933 ext=0.900 T=  2 nb=0.0 mae=51 r24=+25.5
+                2: n=  670 hit2=0.572 hitH=0.891 ext=0.848 T=  2 nb=0.0 mae=46 r24=-3.9
+                3: n=  675 hit2=0.556 hitH=0.908 ext=0.861 T=  2 nb=0.0 mae=59 r24=+49.2
+                4: n=  634 hit2=0.584 hitH=0.910 ext=0.866 T=  2 nb=0.0 mae=73 r24=+8.9
+-- B2. SMA50 alignment
+               -1: n= 1490 hit2=0.583 hitH=0.918 ext=0.884 T=  2 nb=0.0 mae=56 r24=+7.0
+                0: n=    6 hit2=0.833 hitH=1.000 ext=1.000 T=  1 nb=0.0 mae=12 r24=+180.8
+                1: n= 1764 hit2=0.566 hitH=0.905 ext=0.859 T=  2 nb=0.0 mae=59 r24=+15.3
+-- C. prior candle dir
+               -1: n= 1608 hit2=0.596 hitH=0.915 ext=0.876 T=  1 nb=0.0 mae=57 r24=+13.9
+                0: n=   41 hit2=0.439 hitH=0.878 ext=0.854 T=  2 nb=0.0 mae=70 r24=-44.0
+                1: n= 1611 hit2=0.556 hitH=0.909 ext=0.866 T=  2 nb=0.0 mae=58 r24=+17.5
+-- D. volume quintile
+                0: n=  609 hit2=0.634 hitH=0.936 ext=0.918 T=  1 nb=0.0 mae=52 r24=-32.3
+                1: n=  644 hit2=0.615 hitH=0.932 ext=0.908 T=  1 nb=0.0 mae=56 r24=+5.3
+                2: n=  679 hit2=0.622 hitH=0.929 ext=0.890 T=  1 nb=0.0 mae=49 r24=+44.7
+                3: n=  662 hit2=0.562 hitH=0.918 ext=0.867 T=  2 nb=0.0 mae=59 r24=+52.6
+                4: n=  666 hit2=0.444 hitH=0.844 ext=0.776 T=  2 nb=0.0 mae=83 r24=-19.4
+-- E. candle type
+                1: n= 2523 hit2=0.556 hitH=0.908 ext=0.863 T=  2 nb=0.0 mae=59 r24=+18.4
+                2: n=  737 hit2=0.635 hitH=0.924 ext=0.897 T=  1 nb=0.0 mae=55 r24=+20.0
+-- G1. session block
+                0: n=  855 hit2=0.582 hitH=0.906 ext=0.867 T=  2 nb=0.0 mae=50 r24=+20.4
+                1: n=  800 hit2=0.550 hitH=0.901 ext=0.864 T=  2 nb=0.0 mae=60 r24=-5.1
+                2: n=  773 hit2=0.552 hitH=0.903 ext=0.846 T=  2 nb=0.0 mae=70 r24=-11.9
+                3: n=  832 hit2=0.609 hitH=0.934 ext=0.905 T=  2 nb=0.0 mae=55 r24=+25.7
+-- G2. day of week
+                0: n=  459 hit2=0.562 hitH=0.911 ext=0.874 T=  2 nb=0.0 mae=59 r24=-64.8
+                1: n=  462 hit2=0.571 hitH=0.896 ext=0.855 T=  2 nb=0.0 mae=60 r24=-5.7
+                2: n=  456 hit2=0.583 hitH=0.895 ext=0.855 T=  1 nb=0.0 mae=60 r24=-21.4
+                3: n=  466 hit2=0.573 hitH=0.897 ext=0.837 T=  2 nb=0.0 mae=71 r24=-42.4
+                4: n=  462 hit2=0.571 hitH=0.920 ext=0.881 T=  2 nb=0.0 mae=63 r24=+11.8
+                5: n=  445 hit2=0.600 hitH=0.919 ext=0.888 T=  1 nb=0.0 mae=49 r24=+97.1
+                6: n=  510 hit2=0.561 hitH=0.939 ext=0.904 T=  2 nb=0.0 mae=47 r24=+76.0
+-- H. BTC regime
+                0: n=   16 hit2=0.500 hitH=0.938 ext=0.938 T=  2 nb=0.0 mae=60 r24=+102.1
+                1: n= 1810 hit2=0.574 hitH=0.918 ext=0.880 T=  2 nb=0.0 mae=53 r24=-1.8
+                2: n= 1434 hit2=0.575 hitH=0.902 ext=0.859 T=  2 nb=0.0 mae=70 r24=+29.9
+-- I. single-condition scan (BH<0.05 shown)
+   * volq=4: n=666 hitH=0.844 (Δ-0.085, q=0.000) ext=0.776 r24=-19.4
+   * volq_ge=2: n=2007 hitH=0.897 (Δ-0.036, q=0.003) ext=0.845 r24=+17.6
+   * volq_ge=3: n=1328 hitH=0.881 (Δ-0.051, q=0.000) ext=0.822 r24=+12.5
+   * rng_q=4: n=493 hitH=0.811 (Δ-0.118, q=0.000) ext=0.730 r24=+5.6
+-- J. combo gates
+   C1_wick8_trend_up: n=1163 hit2=0.566 hitH=0.905 ext=0.858 T=2 r24=+10.3 (rest hitH=0.915)
+   C2_wick8_sma_above: n=1572 hit2=0.561 hitH=0.903 ext=0.856 T=2 r24=+18.6 (rest hitH=0.919)
+   C3_wick8_quietvol: n=1130 hit2=0.614 hitH=0.931 ext=0.910 T=2 r24=+17.1 (rest hitH=0.901)
+   C4_wick8_bear_regime: n=14 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=748 hit2=0.533 hitH=0.920 ext=0.873 T=2 r24=+12.0 (rest hitH=0.909)
+
+################ ICPUSDT-30m  (n=6512) ################
+BASE: hit2=0.566 hitH=0.908 ext1.5x=0.870 medT=2 medBounces=0.0 medMAE=41bps r24=+7.9bps
+-- A. wick decile dose-response
+                7: n=  652 hit2=0.633 hitH=0.920 ext=0.891 T=  1 nb=0.0 mae=41 r24=-13.0
+                8: n= 1954 hit2=0.622 hitH=0.918 ext=0.888 T=  1 nb=0.0 mae=39 r24=+5.7
+                9: n= 1963 hit2=0.577 hitH=0.914 ext=0.881 T=  2 nb=0.0 mae=41 r24=+10.2
+               10: n= 1943 hit2=0.478 hitH=0.888 ext=0.833 T=  2 nb=0.0 mae=45 r24=+3.2
+-- B1. trend quintile
+                0: n= 1327 hit2=0.593 hitH=0.917 ext=0.890 T=  1 nb=0.0 mae=43 r24=+8.5
+                1: n= 1273 hit2=0.564 hitH=0.921 ext=0.887 T=  2 nb=0.0 mae=37 r24=+19.4
+                2: n= 1351 hit2=0.577 hitH=0.904 ext=0.864 T=  2 nb=0.0 mae=35 r24=-10.1
+                3: n= 1291 hit2=0.560 hitH=0.900 ext=0.856 T=  2 nb=0.0 mae=39 r24=+15.7
+                4: n= 1270 hit2=0.537 hitH=0.898 ext=0.853 T=  2 nb=0.0 mae=61 r24=+31.4
+-- B2. SMA50 alignment
+               -1: n= 3011 hit2=0.573 hitH=0.919 ext=0.885 T=  2 nb=0.0 mae=39 r24=-0.9
+                0: n=    8 hit2=0.500 hitH=1.000 ext=1.000 T=  2 nb=0.0 mae=62 r24=-28.7
+                1: n= 3493 hit2=0.561 hitH=0.899 ext=0.857 T=  2 nb=0.0 mae=43 r24=+12.7
+-- C. prior candle dir
+               -1: n= 3289 hit2=0.589 hitH=0.916 ext=0.878 T=  2 nb=0.0 mae=40 r24=+14.8
+                0: n=   89 hit2=0.517 hitH=0.910 ext=0.888 T=  2 nb=0.0 mae=33 r24=-5.6
+                1: n= 3134 hit2=0.544 hitH=0.899 ext=0.861 T=  2 nb=0.0 mae=44 r24=+8.9
+-- D. volume quintile
+                0: n= 1311 hit2=0.628 hitH=0.933 ext=0.902 T=  1 nb=0.0 mae=35 r24=-16.3
+                1: n= 1357 hit2=0.608 hitH=0.937 ext=0.915 T=  1 nb=0.0 mae=39 r24=+23.1
+                2: n= 1266 hit2=0.589 hitH=0.912 ext=0.885 T=  1 nb=0.0 mae=40 r24=+21.3
+                3: n= 1259 hit2=0.536 hitH=0.901 ext=0.856 T=  2 nb=0.0 mae=47 r24=-2.0
+                4: n= 1319 hit2=0.470 hitH=0.857 ext=0.791 T=  2 nb=0.0 mae=53 r24=+3.4
+-- E. candle type
+                1: n= 5080 hit2=0.554 hitH=0.905 ext=0.866 T=  2 nb=0.0 mae=41 r24=+3.9
+                2: n= 1432 hit2=0.612 hitH=0.920 ext=0.885 T=  1 nb=0.0 mae=42 r24=+3.6
+-- G1. session block
+                0: n= 1653 hit2=0.564 hitH=0.903 ext=0.874 T=  2 nb=0.0 mae=39 r24=+7.8
+                1: n= 1622 hit2=0.557 hitH=0.904 ext=0.866 T=  2 nb=0.0 mae=41 r24=-10.3
+                2: n= 1573 hit2=0.554 hitH=0.894 ext=0.841 T=  2 nb=0.0 mae=47 r24=+15.4
+                3: n= 1664 hit2=0.590 hitH=0.930 ext=0.898 T=  2 nb=0.0 mae=40 r24=+22.4
+-- G2. day of week
+                0: n=  937 hit2=0.551 hitH=0.909 ext=0.869 T=  2 nb=0.0 mae=41 r24=-8.3
+                1: n=  902 hit2=0.555 hitH=0.884 ext=0.836 T=  2 nb=0.0 mae=47 r24=-18.2
+                2: n=  928 hit2=0.572 hitH=0.914 ext=0.877 T=  2 nb=0.0 mae=42 r24=+4.1
+                3: n=  945 hit2=0.557 hitH=0.910 ext=0.860 T=  2 nb=0.0 mae=45 r24=-4.2
+                4: n=  892 hit2=0.571 hitH=0.904 ext=0.874 T=  2 nb=0.0 mae=40 r24=-11.1
+                5: n=  928 hit2=0.613 hitH=0.915 ext=0.884 T=  1 nb=0.0 mae=38 r24=+61.9
+                6: n=  980 hit2=0.548 hitH=0.919 ext=0.888 T=  2 nb=0.0 mae=38 r24=+35.2
+-- H. BTC regime
+                0: n=   39 hit2=0.462 hitH=0.872 ext=0.872 T=  2 nb=0.0 mae=27 r24=-80.0
+                1: n= 3657 hit2=0.556 hitH=0.906 ext=0.868 T=  2 nb=0.0 mae=37 r24=-2.9
+                2: n= 2816 hit2=0.582 hitH=0.911 ext=0.873 T=  2 nb=0.0 mae=49 r24=+16.8
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=10: n=1943 hitH=0.888 (Δ-0.029, q=0.001) ext=0.833 r24=+3.2
+   * uwd_ge=9: n=3906 hitH=0.901 (Δ-0.017, q=0.050) ext=0.857 r24=+12.4
+   * uwd_ge=10: n=1943 hitH=0.888 (Δ-0.029, q=0.001) ext=0.833 r24=+3.2
+   * trend_ge=2: n=3912 hitH=0.901 (Δ-0.019, q=0.030) ext=0.858 r24=+6.7
+   * smaal=-1: n=3011 hitH=0.919 (Δ+0.020, q=0.018) ext=0.885 r24=-0.9
+   * smaal=1: n=3493 hitH=0.899 (Δ-0.020, q=0.016) ext=0.857 r24=+12.7
+   * volq=0: n=1311 hitH=0.933 (Δ+0.031, q=0.002) ext=0.902 r24=-16.3
+   * volq=1: n=1357 hitH=0.937 (Δ+0.036, q=0.000) ext=0.915 r24=+23.1
+   * volq=4: n=1319 hitH=0.857 (Δ-0.063, q=0.000) ext=0.791 r24=+3.4
+   * volq_ge=2: n=3844 hitH=0.889 (Δ-0.045, q=0.000) ext=0.843 r24=+10.3
+   * volq_ge=3: n=2578 hitH=0.879 (Δ-0.049, q=0.000) ext=0.823 r24=+9.8
+   * rng_q=0: n=1622 hitH=0.943 (Δ+0.047, q=0.000) ext=0.923 r24=+16.3
+   * rng_q=1: n=1514 hitH=0.927 (Δ+0.025, q=0.011) ext=0.902 r24=-2.6
+   * rng_q=4: n=994 hitH=0.843 (Δ-0.077, q=0.000) ext=0.768 r24=+9.0
+-- J. combo gates
+   C1_wick8_trend_up: n=2305 hit2=0.544 hitH=0.899 ext=0.855 T=2 r24=+22.1 (rest hitH=0.913)
+   C2_wick8_sma_above: n=3152 hit2=0.556 hitH=0.898 ext=0.856 T=2 r24=+14.6 (rest hitH=0.917)
+   C3_wick8_quietvol: n=2392 hit2=0.610 hitH=0.934 ext=0.906 T=1 r24=-1.4 (rest hitH=0.893)
+   C4_wick8_bear_regime: n=38 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=1589 hit2=0.541 hitH=0.911 ext=0.873 T=2 r24=+6.3 (rest hitH=0.907)
+
+################ ICPUSDT-4h  (n=819) ################
+BASE: hit2=0.524 hitH=0.877 ext1.5x=0.835 medT=2 medBounces=0.0 medMAE=133bps r24=+43.7bps
+-- A. wick decile dose-response
+                7: n=   82 hit2=0.707 hitH=0.878 ext=0.866 T=  1 nb=0.0 mae=121 r24=-22.0
+                8: n=  245 hit2=0.539 hitH=0.873 ext=0.829 T=  2 nb=0.0 mae=132 r24=-44.3
+                9: n=  246 hit2=0.508 hitH=0.874 ext=0.829 T=  2 nb=0.0 mae=133 r24=+64.3
+               10: n=  246 hit2=0.463 hitH=0.882 ext=0.837 T=  2 nb=0.0 mae=141 r24=+191.8
+-- B1. trend quintile
+                0: n=  162 hit2=0.537 hitH=0.901 ext=0.864 T=  2 nb=0.0 mae=158 r24=-47.6
+                1: n=  167 hit2=0.497 hitH=0.844 ext=0.796 T=  2 nb=0.0 mae=114 r24=+34.1
+                2: n=  164 hit2=0.512 hitH=0.872 ext=0.841 T=  2 nb=0.0 mae=133 r24=+35.8
+                3: n=  158 hit2=0.576 hitH=0.880 ext=0.835 T=  2 nb=0.0 mae=120 r24=+174.3
+                4: n=  168 hit2=0.500 hitH=0.887 ext=0.839 T=  2 nb=0.0 mae=189 r24=+109.5
+-- B2. SMA50 alignment
+               -1: n=  377 hit2=0.504 hitH=0.875 ext=0.836 T=  2 nb=0.0 mae=133 r24=-37.5
+                0: n=    6 hit2=0.667 hitH=0.833 ext=0.833 T=  1 nb=0.0 mae=60 r24=-231.1
+                1: n=  436 hit2=0.539 hitH=0.878 ext=0.835 T=  2 nb=0.0 mae=135 r24=+193.9
+-- C. prior candle dir
+               -1: n=  385 hit2=0.561 hitH=0.886 ext=0.834 T=  2 nb=0.0 mae=133 r24=+35.6
+                0: n=    8 hit2=0.500 hitH=0.750 ext=0.750 T=  1 nb=0.0 mae=79 r24=-246.7
+                1: n=  426 hit2=0.491 hitH=0.871 ext=0.838 T=  2 nb=0.0 mae=132 r24=+102.0
+-- D. volume quintile
+                0: n=  173 hit2=0.636 hitH=0.936 ext=0.902 T=  1 nb=0.0 mae=115 r24=+74.3
+                1: n=  144 hit2=0.500 hitH=0.868 ext=0.840 T=  2 nb=0.0 mae=135 r24=-40.8
+                2: n=  177 hit2=0.599 hitH=0.927 ext=0.870 T=  2 nb=0.0 mae=125 r24=+40.4
+                3: n=  147 hit2=0.456 hitH=0.830 ext=0.796 T=  2 nb=0.0 mae=149 r24=+48.4
+                4: n=  178 hit2=0.416 hitH=0.815 ext=0.764 T=  2 nb=0.0 mae=169 r24=+162.2
+-- E. candle type
+                1: n=  627 hit2=0.507 hitH=0.872 ext=0.825 T=  2 nb=0.0 mae=146 r24=+109.9
+                2: n=  192 hit2=0.578 hitH=0.891 ext=0.870 T=  1 nb=0.0 mae=122 r24=-56.7
+-- G1. session block
+                0: n=  291 hit2=0.478 hitH=0.880 ext=0.842 T=  2 nb=0.0 mae=150 r24=+115.8
+                1: n=  145 hit2=0.593 hitH=0.924 ext=0.897 T=  1 nb=0.0 mae=152 r24=+61.9
+                2: n=  251 hit2=0.458 hitH=0.829 ext=0.781 T=  2 nb=0.0 mae=133 r24=-76.6
+                3: n=  132 hit2=0.674 hitH=0.909 ext=0.856 T=  1 nb=0.0 mae=116 r24=+203.2
+-- G2. day of week
+                0: n=  107 hit2=0.523 hitH=0.916 ext=0.860 T=  2 nb=0.0 mae=163 r24=-74.6
+                1: n=  123 hit2=0.480 hitH=0.829 ext=0.813 T=  2 nb=0.0 mae=148 r24=-99.4
+                2: n=  108 hit2=0.546 hitH=0.852 ext=0.815 T=  2 nb=0.0 mae=152 r24=+120.9
+                3: n=  122 hit2=0.500 hitH=0.861 ext=0.787 T=  2 nb=0.0 mae=174 r24=+256.0
+                4: n=  122 hit2=0.443 hitH=0.902 ext=0.861 T=  3 nb=0.0 mae=204 r24=+264.2
+                5: n=  112 hit2=0.652 hitH=0.893 ext=0.857 T=  1 nb=0.0 mae=93 r24=-2.3
+                6: n=  125 hit2=0.536 hitH=0.888 ext=0.856 T=  2 nb=0.0 mae=98 r24=-49.6
+-- H. BTC regime
+                0: n=    4 hit2=0.250 hitH=1.000 ext=1.000 T=  3 nb=0.0 mae=431 r24=+1147.8
+                1: n=  454 hit2=0.524 hitH=0.881 ext=0.844 T=  2 nb=0.0 mae=117 r24=-61.7
+                2: n=  361 hit2=0.526 hitH=0.870 ext=0.823 T=  2 nb=0.0 mae=166 r24=+209.3
+-- I. single-condition scan (BH<0.05 shown)
+   * volq=0: n=173 hitH=0.936 (Δ+0.076, q=0.050) ext=0.902 r24=+74.3
+   * volq=4: n=178 hitH=0.815 (Δ-0.079, q=0.039) ext=0.764 r24=+162.2
+   * volq_ge=3: n=325 hitH=0.822 (Δ-0.091, q=0.002) ext=0.778 r24=+111.5
+   * rng_q=0: n=190 hitH=0.947 (Δ+0.092, q=0.008) ext=0.900 r24=+46.0
+   * rng_q=4: n=138 hitH=0.761 (Δ-0.139, q=0.000) ext=0.717 r24=+15.7
+-- J. combo gates
+   C1_wick8_trend_up: n=289 hit2=0.529 hitH=0.886 ext=0.834 T=2 r24=+164.2 (rest hitH=0.872)
+   C2_wick8_sma_above: n=391 hit2=0.524 hitH=0.875 ext=0.826 T=2 r24=+160.4 (rest hitH=0.879)
+   C3_wick8_quietvol: n=284 hit2=0.549 hitH=0.905 ext=0.870 T=2 r24=+6.6 (rest hitH=0.862)
+   C4_wick8_bear_regime: n=3 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=199 hit2=0.497 hitH=0.905 ext=0.854 T=2 r24=+105.4 (rest hitH=0.868)
+
+################ ICPUSDT-5m  (n=37197) ################
+BASE: hit2=0.562 hitH=0.903 ext1.5x=0.872 medT=2 medBounces=0.0 medMAE=16bps r24=+1.6bps
+-- A. wick decile dose-response
+                7: n= 3836 hit2=0.676 hitH=0.929 ext=0.901 T=  1 nb=0.0 mae=16 r24=-5.2
+                8: n=11067 hit2=0.613 hitH=0.919 ext=0.897 T=  1 nb=0.0 mae=16 r24=+0.2
+                9: n=11193 hit2=0.543 hitH=0.899 ext=0.869 T=  2 nb=0.0 mae=16 r24=+1.9
+               10: n=11101 hit2=0.490 hitH=0.884 ext=0.839 T=  2 nb=0.0 mae=17 r24=+2.3
+-- B1. trend quintile
+                0: n= 8154 hit2=0.596 hitH=0.917 ext=0.887 T=  1 nb=0.0 mae=18 r24=+6.6
+                1: n= 7341 hit2=0.561 hitH=0.915 ext=0.886 T=  2 nb=0.0 mae=13 r24=+1.6
+                2: n= 6888 hit2=0.542 hitH=0.903 ext=0.874 T=  2 nb=0.0 mae=13 r24=-3.4
+                3: n= 7126 hit2=0.544 hitH=0.898 ext=0.868 T=  2 nb=0.0 mae=15 r24=-0.7
+                4: n= 7688 hit2=0.560 hitH=0.883 ext=0.844 T=  2 nb=0.0 mae=22 r24=-1.1
+-- B2. SMA50 alignment
+               -1: n=16590 hit2=0.578 hitH=0.917 ext=0.887 T=  2 nb=0.0 mae=15 r24=+5.9
+                0: n=    9 hit2=0.333 hitH=0.667 ext=0.667 T=  3 nb=0.0 mae=30 r24=+13.2
+                1: n=20598 hit2=0.549 hitH=0.893 ext=0.860 T=  2 nb=0.0 mae=17 r24=-2.0
+-- C. prior candle dir
+               -1: n=17875 hit2=0.572 hitH=0.909 ext=0.880 T=  2 nb=0.0 mae=16 r24=+4.9
+                0: n= 2005 hit2=0.467 hitH=0.872 ext=0.856 T=  2 nb=0.0 mae=15 r24=-1.3
+                1: n=17317 hit2=0.563 hitH=0.901 ext=0.865 T=  2 nb=0.0 mae=17 r24=-1.2
+-- D. volume quintile
+                0: n= 6357 hit2=0.628 hitH=0.929 ext=0.908 T=  1 nb=0.0 mae=12 r24=+1.4
+                1: n= 7612 hit2=0.595 hitH=0.918 ext=0.889 T=  1 nb=0.0 mae=16 r24=+1.2
+                2: n= 7686 hit2=0.578 hitH=0.913 ext=0.880 T=  2 nb=0.0 mae=16 r24=+2.5
+                3: n= 7627 hit2=0.557 hitH=0.903 ext=0.870 T=  2 nb=0.0 mae=17 r24=-0.0
+                4: n= 7915 hit2=0.466 hitH=0.859 ext=0.820 T=  2 nb=0.0 mae=19 r24=-0.6
+-- E. candle type
+                0: n=  511 hit2=0.646 hitH=0.932 ext=0.906 T=  1 nb=0.0 mae=13 r24=+2.5
+                1: n=29591 hit2=0.543 hitH=0.898 ext=0.865 T=  2 nb=0.0 mae=16 r24=+0.7
+                2: n= 7095 hit2=0.637 hitH=0.922 ext=0.897 T=  1 nb=0.0 mae=17 r24=+1.0
+-- G1. session block
+                0: n= 9091 hit2=0.560 hitH=0.896 ext=0.865 T=  2 nb=0.0 mae=16 r24=+4.7
+                1: n= 9424 hit2=0.561 hitH=0.907 ext=0.879 T=  2 nb=0.0 mae=15 r24=-3.7
+                2: n= 9531 hit2=0.564 hitH=0.897 ext=0.860 T=  2 nb=0.0 mae=19 r24=+0.6
+                3: n= 9151 hit2=0.562 hitH=0.914 ext=0.884 T=  2 nb=0.0 mae=15 r24=+4.5
+-- G2. day of week
+                0: n= 5264 hit2=0.554 hitH=0.896 ext=0.855 T=  2 nb=0.0 mae=16 r24=-3.5
+                1: n= 5331 hit2=0.561 hitH=0.887 ext=0.857 T=  2 nb=0.0 mae=17 r24=-2.4
+                2: n= 5331 hit2=0.556 hitH=0.904 ext=0.875 T=  2 nb=0.0 mae=17 r24=-4.6
+                3: n= 5344 hit2=0.572 hitH=0.910 ext=0.878 T=  2 nb=0.0 mae=17 r24=+4.8
+                4: n= 5343 hit2=0.563 hitH=0.899 ext=0.867 T=  2 nb=0.0 mae=16 r24=-8.9
+                5: n= 5382 hit2=0.577 hitH=0.919 ext=0.890 T=  2 nb=0.0 mae=16 r24=+13.4
+                6: n= 5202 hit2=0.551 hitH=0.908 ext=0.881 T=  2 nb=0.0 mae=14 r24=+8.1
+-- H. BTC regime
+                0: n=  204 hit2=0.603 hitH=0.917 ext=0.868 T=  1 nb=0.0 mae=13 r24=-1.8
+                1: n=18406 hit2=0.532 hitH=0.895 ext=0.867 T=  2 nb=0.0 mae=14 r24=-2.6
+                2: n=18587 hit2=0.591 hitH=0.912 ext=0.877 T=  1 nb=0.0 mae=19 r24=+4.3
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=7: n=3836 hitH=0.929 (Δ+0.028, q=0.000) ext=0.901 r24=-5.2
+   * uwd=8: n=11067 hitH=0.919 (Δ+0.022, q=0.000) ext=0.897 r24=+0.2
+   * uwd=9: n=11193 hitH=0.899 (Δ-0.007, q=0.048) ext=0.869 r24=+1.9
+   * uwd=10: n=11101 hitH=0.884 (Δ-0.028, q=0.000) ext=0.839 r24=+2.3
+   * uwd_ge=8: n=33361 hitH=0.900 (Δ-0.028, q=0.000) ext=0.868 r24=+2.0
+   * uwd_ge=9: n=22294 hitH=0.891 (Δ-0.030, q=0.000) ext=0.854 r24=+1.9
+   * uwd_ge=10: n=11101 hitH=0.884 (Δ-0.028, q=0.000) ext=0.839 r24=+2.3
+   * trend=0: n=8154 hitH=0.917 (Δ+0.017, q=0.000) ext=0.887 r24=+6.6
+   * trend=1: n=7341 hitH=0.915 (Δ+0.015, q=0.000) ext=0.886 r24=+1.6
+   * trend=4: n=7688 hitH=0.883 (Δ-0.025, q=0.000) ext=0.844 r24=-1.1
+   * trend_ge=1: n=29043 hitH=0.900 (Δ-0.017, q=0.000) ext=0.868 r24=-1.3
+   * trend_ge=2: n=21702 hitH=0.894 (Δ-0.022, q=0.000) ext=0.861 r24=-1.2
+   * trend_ge=3: n=14814 hitH=0.890 (Δ-0.022, q=0.000) ext=0.856 r24=-1.0
+   * smaal=-1: n=16590 hitH=0.917 (Δ+0.024, q=0.000) ext=0.887 r24=+5.9
+   * smaal=1: n=20598 hitH=0.893 (Δ-0.024, q=0.000) ext=0.860 r24=-2.0
+   * prev=-1: n=17875 hitH=0.909 (Δ+0.012, q=0.000) ext=0.880 r24=+4.9
+   * prev=0: n=2005 hitH=0.872 (Δ-0.033, q=0.000) ext=0.856 r24=-1.3
+   * volq=0: n=6357 hitH=0.929 (Δ+0.031, q=0.000) ext=0.908 r24=+1.4
+   * volq=1: n=7612 hitH=0.918 (Δ+0.019, q=0.000) ext=0.889 r24=+1.2
+   * volq=2: n=7686 hitH=0.913 (Δ+0.012, q=0.002) ext=0.880 r24=+2.5
+   * volq=4: n=7915 hitH=0.859 (Δ-0.056, q=0.000) ext=0.820 r24=-0.6
+   * volq_ge=2: n=23228 hitH=0.891 (Δ-0.032, q=0.000) ext=0.856 r24=-0.2
+   * volq_ge=3: n=15542 hitH=0.881 (Δ-0.039, q=0.000) ext=0.845 r24=+0.4
+   * typ=0: n=511 hitH=0.932 (Δ+0.029, q=0.037) ext=0.906 r24=+2.5
+   * typ=1: n=29591 hitH=0.898 (Δ-0.024, q=0.000) ext=0.865 r24=+0.7
+   * typ=2: n=7095 hitH=0.922 (Δ+0.023, q=0.000) ext=0.897 r24=+1.0
+   * rng_q=0: n=8674 hitH=0.933 (Δ+0.038, q=0.000) ext=0.914 r24=+0.5
+   * rng_q=1: n=8568 hitH=0.921 (Δ+0.023, q=0.000) ext=0.894 r24=+2.0
+   * rng_q=3: n=6644 hitH=0.892 (Δ-0.013, q=0.001) ext=0.852 r24=+4.6
+   * rng_q=4: n=5594 hitH=0.836 (Δ-0.080, q=0.000) ext=0.789 r24=-1.0
+   * reg=1: n=18406 hitH=0.895 (Δ-0.017, q=0.000) ext=0.867 r24=-2.6
+   * reg=2: n=18587 hitH=0.912 (Δ+0.016, q=0.000) ext=0.877 r24=+4.3
+-- J. combo gates
+   C1_wick8_trend_up: n=13218 hit2=0.538 hitH=0.887 ext=0.852 T=2 r24=-0.3 (rest hitH=0.913)
+   C2_wick8_sma_above: n=18426 hit2=0.535 hitH=0.889 ext=0.856 T=2 r24=-2.0 (rest hitH=0.917)
+   C3_wick8_quietvol: n=12596 hit2=0.599 hitH=0.921 ext=0.895 T=2 r24=+3.3 (rest hitH=0.894)
+   C4_wick8_bear_regime: n=185 hit2=0.589 hitH=0.919 ext=0.870 T=1 r24=+2.1 (rest hitH=0.903)
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=9390 hit2=0.537 hitH=0.905 ext=0.870 T=2 r24=+5.7 (rest hitH=0.903)
+
+################ SOLUSDT-15m  (n=13537) ################
+BASE: hit2=0.565 hitH=0.908 ext1.5x=0.872 medT=2 medBounces=0.0 medMAE=28bps r24=+11.7bps
+-- A. wick decile dose-response
+                7: n= 1354 hit2=0.670 hitH=0.940 ext=0.913 T=  1 nb=0.0 mae=26 r24=+8.1
+                8: n= 4066 hit2=0.637 hitH=0.933 ext=0.900 T=  1 nb=0.0 mae=27 r24=+16.7
+                9: n= 4056 hit2=0.559 hitH=0.899 ext=0.867 T=  2 nb=0.0 mae=28 r24=+4.7
+               10: n= 4061 hit2=0.466 hitH=0.881 ext=0.834 T=  2 nb=0.0 mae=32 r24=+14.9
+-- B1. trend quintile
+                0: n= 2607 hit2=0.612 hitH=0.925 ext=0.886 T=  1 nb=0.0 mae=33 r24=+27.0
+                1: n= 2576 hit2=0.580 hitH=0.924 ext=0.892 T=  2 nb=0.0 mae=23 r24=+6.5
+                2: n= 2686 hit2=0.561 hitH=0.908 ext=0.867 T=  2 nb=0.0 mae=23 r24=-1.7
+                3: n= 2746 hit2=0.549 hitH=0.902 ext=0.869 T=  2 nb=0.0 mae=27 r24=+10.6
+                4: n= 2922 hit2=0.531 hitH=0.883 ext=0.847 T=  2 nb=0.0 mae=40 r24=+10.5
+-- B2. SMA50 alignment
+               -1: n= 5727 hit2=0.595 hitH=0.924 ext=0.891 T=  2 nb=0.0 mae=27 r24=+7.5
+                0: n=    1 hit2=1.000 hitH=1.000 ext=1.000 T=  1 nb=0.0 mae=3 r24=-139.4
+                1: n= 7809 hit2=0.543 hitH=0.896 ext=0.858 T=  2 nb=0.0 mae=30 r24=+12.1
+-- C. prior candle dir
+               -1: n= 6572 hit2=0.597 hitH=0.918 ext=0.883 T=  1 nb=0.0 mae=26 r24=+8.9
+                0: n=  128 hit2=0.562 hitH=0.930 ext=0.898 T=  2 nb=0.0 mae=19 r24=+58.2
+                1: n= 6837 hit2=0.535 hitH=0.897 ext=0.860 T=  2 nb=0.0 mae=32 r24=+12.1
+-- D. volume quintile
+                0: n= 2752 hit2=0.644 hitH=0.935 ext=0.914 T=  1 nb=0.0 mae=23 r24=+18.4
+                1: n= 2750 hit2=0.628 hitH=0.938 ext=0.909 T=  1 nb=0.0 mae=26 r24=+2.8
+                2: n= 2612 hit2=0.578 hitH=0.919 ext=0.887 T=  1 nb=0.0 mae=28 r24=+7.9
+                3: n= 2684 hit2=0.534 hitH=0.905 ext=0.861 T=  2 nb=0.0 mae=33 r24=+21.9
+                4: n= 2739 hit2=0.442 hitH=0.842 ext=0.787 T=  2 nb=0.0 mae=37 r24=+7.7
+-- E. candle type
+                1: n=10580 hit2=0.548 hitH=0.902 ext=0.863 T=  2 nb=0.0 mae=29 r24=+14.7
+                2: n= 2957 hit2=0.627 hitH=0.929 ext=0.904 T=  1 nb=0.0 mae=28 r24=+5.1
+-- G1. session block
+                0: n= 3234 hit2=0.559 hitH=0.903 ext=0.869 T=  2 nb=0.0 mae=28 r24=+20.6
+                1: n= 3400 hit2=0.573 hitH=0.920 ext=0.888 T=  2 nb=0.0 mae=26 r24=-5.1
+                2: n= 3462 hit2=0.554 hitH=0.889 ext=0.844 T=  2 nb=0.0 mae=33 r24=-0.9
+                3: n= 3441 hit2=0.576 hitH=0.920 ext=0.886 T=  2 nb=0.0 mae=27 r24=+33.4
+-- G2. day of week
+                0: n= 2012 hit2=0.552 hitH=0.916 ext=0.883 T=  2 nb=0.0 mae=25 r24=-1.4
+                1: n= 1898 hit2=0.550 hitH=0.896 ext=0.857 T=  2 nb=0.0 mae=32 r24=+11.9
+                2: n= 1934 hit2=0.580 hitH=0.911 ext=0.874 T=  2 nb=0.0 mae=29 r24=-2.1
+                3: n= 1896 hit2=0.582 hitH=0.910 ext=0.883 T=  2 nb=0.0 mae=30 r24=+13.9
+                4: n= 1958 hit2=0.565 hitH=0.908 ext=0.865 T=  2 nb=0.0 mae=31 r24=+19.9
+                5: n= 1943 hit2=0.560 hitH=0.910 ext=0.875 T=  2 nb=0.0 mae=32 r24=+19.9
+                6: n= 1896 hit2=0.570 hitH=0.902 ext=0.863 T=  2 nb=0.0 mae=23 r24=+12.2
+-- H. BTC regime
+                0: n=   57 hit2=0.649 hitH=0.947 ext=0.930 T=  1 nb=0.0 mae=27 r24=-57.7
+                1: n= 7691 hit2=0.554 hitH=0.902 ext=0.866 T=  2 nb=0.0 mae=26 r24=+8.2
+                2: n= 5789 hit2=0.579 hitH=0.914 ext=0.878 T=  2 nb=0.0 mae=32 r24=+16.6
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=7: n=1354 hitH=0.940 (Δ+0.036, q=0.000) ext=0.913 r24=+8.1
+   * uwd=8: n=4066 hitH=0.933 (Δ+0.036, q=0.000) ext=0.900 r24=+16.7
+   * uwd=9: n=4056 hitH=0.899 (Δ-0.012, q=0.027) ext=0.867 r24=+4.7
+   * uwd=10: n=4061 hitH=0.881 (Δ-0.039, q=0.000) ext=0.834 r24=+14.9
+   * uwd_ge=8: n=12183 hitH=0.904 (Δ-0.036, q=0.000) ext=0.867 r24=+11.5
+   * uwd_ge=9: n=8117 hitH=0.890 (Δ-0.045, q=0.000) ext=0.850 r24=+9.2
+   * uwd_ge=10: n=4061 hitH=0.881 (Δ-0.039, q=0.000) ext=0.834 r24=+14.9
+   * trend=0: n=2607 hitH=0.925 (Δ+0.021, q=0.001) ext=0.886 r24=+27.0
+   * trend=1: n=2576 hitH=0.924 (Δ+0.020, q=0.002) ext=0.892 r24=+6.5
+   * trend=4: n=2922 hitH=0.883 (Δ-0.031, q=0.000) ext=0.847 r24=+10.5
+   * trend_ge=1: n=10930 hitH=0.904 (Δ-0.021, q=0.001) ext=0.868 r24=+6.9
+   * trend_ge=2: n=8354 hitH=0.897 (Δ-0.027, q=0.000) ext=0.861 r24=+5.6
+   * trend_ge=3: n=5668 hitH=0.892 (Δ-0.026, q=0.000) ext=0.858 r24=+12.5
+   * smaal=-1: n=5727 hitH=0.924 (Δ+0.028, q=0.000) ext=0.891 r24=+7.5
+   * smaal=1: n=7809 hitH=0.896 (Δ-0.028, q=0.000) ext=0.858 r24=+12.1
+   * prev=-1: n=6572 hitH=0.918 (Δ+0.020, q=0.000) ext=0.883 r24=+8.9
+   * prev=1: n=6837 hitH=0.897 (Δ-0.021, q=0.000) ext=0.860 r24=+12.1
+   * volq=0: n=2752 hitH=0.935 (Δ+0.035, q=0.000) ext=0.914 r24=+18.4
+   * volq=1: n=2750 hitH=0.938 (Δ+0.038, q=0.000) ext=0.909 r24=+2.8
+   * volq=2: n=2612 hitH=0.919 (Δ+0.014, q=0.033) ext=0.887 r24=+7.9
+   * volq=4: n=2739 hitH=0.842 (Δ-0.083, q=0.000) ext=0.787 r24=+7.7
+   * volq_ge=2: n=8035 hitH=0.888 (Δ-0.049, q=0.000) ext=0.844 r24=+13.1
+   * volq_ge=3: n=5423 hitH=0.873 (Δ-0.058, q=0.000) ext=0.824 r24=+17.4
+   * typ=1: n=10580 hitH=0.902 (Δ-0.027, q=0.000) ext=0.863 r24=+14.7
+   * typ=2: n=2957 hitH=0.929 (Δ+0.027, q=0.000) ext=0.904 r24=+5.1
+   * rng_q=0: n=3371 hitH=0.942 (Δ+0.046, q=0.000) ext=0.921 r24=+12.4
+   * rng_q=1: n=3009 hitH=0.933 (Δ+0.032, q=0.000) ext=0.903 r24=+16.3
+   * rng_q=3: n=2331 hitH=0.884 (Δ-0.029, q=0.000) ext=0.842 r24=-1.4
+   * rng_q=4: n=2207 hitH=0.835 (Δ-0.087, q=0.000) ext=0.777 r24=+22.7
+   * reg=1: n=7691 hitH=0.902 (Δ-0.012, q=0.022) ext=0.866 r24=+8.2
+   * reg=2: n=5789 hitH=0.914 (Δ+0.011, q=0.029) ext=0.878 r24=+16.6
+-- J. combo gates
+   C1_wick8_trend_up: n=5112 hit2=0.527 hitH=0.888 ext=0.851 T=2 r24=+13.8 (rest hitH=0.920)
+   C2_wick8_sma_above: n=7026 hit2=0.531 hitH=0.892 ext=0.852 T=2 r24=+13.4 (rest hitH=0.925)
+   C3_wick8_quietvol: n=4963 hit2=0.624 hitH=0.935 ext=0.909 T=1 r24=+7.5 (rest hitH=0.892)
+   C4_wick8_bear_regime: n=52 hit2=0.673 hitH=0.942 ext=0.923 T=1 r24=-53.3 (rest hitH=0.908)
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=3109 hit2=0.545 hitH=0.910 ext=0.867 T=2 r24=+18.2 (rest hitH=0.907)
+
+################ SOLUSDT-1h  (n=3324) ################
+BASE: hit2=0.550 hitH=0.907 ext1.5x=0.871 medT=2 medBounces=0.0 medMAE=59bps r24=+18.7bps
+-- A. wick decile dose-response
+                7: n=  332 hit2=0.630 hitH=0.928 ext=0.907 T=  1 nb=0.0 mae=44 r24=+11.8
+                8: n=  996 hit2=0.611 hitH=0.924 ext=0.898 T=  1 nb=0.0 mae=54 r24=+14.7
+                9: n=  998 hit2=0.549 hitH=0.914 ext=0.878 T=  2 nb=0.0 mae=65 r24=+32.4
+               10: n=  998 hit2=0.462 hitH=0.878 ext=0.827 T=  2 nb=0.0 mae=67 r24=+13.9
+-- B1. trend quintile
+                0: n=  640 hit2=0.572 hitH=0.920 ext=0.883 T=  2 nb=0.0 mae=67 r24=-17.8
+                1: n=  627 hit2=0.577 hitH=0.919 ext=0.896 T=  2 nb=0.0 mae=50 r24=+52.8
+                2: n=  673 hit2=0.530 hitH=0.908 ext=0.871 T=  2 nb=0.0 mae=52 r24=-6.6
+                3: n=  685 hit2=0.540 hitH=0.888 ext=0.854 T=  2 nb=0.0 mae=60 r24=-8.5
+                4: n=  699 hit2=0.532 hitH=0.904 ext=0.856 T=  2 nb=0.0 mae=81 r24=+79.8
+-- B2. SMA50 alignment
+               -1: n= 1438 hit2=0.553 hitH=0.914 ext=0.878 T=  2 nb=0.0 mae=57 r24=-13.4
+                0: n=    6 hit2=0.500 hitH=1.000 ext=1.000 T=  2 nb=0.0 mae=136 r24=-33.2
+                1: n= 1880 hit2=0.547 hitH=0.902 ext=0.865 T=  2 nb=0.0 mae=62 r24=+49.0
+-- C. prior candle dir
+               -1: n= 1608 hit2=0.572 hitH=0.918 ext=0.879 T=  2 nb=0.0 mae=55 r24=+41.0
+                0: n=   11 hit2=0.545 hitH=0.909 ext=0.818 T=  1 nb=0.0 mae=20 r24=+12.4
+                1: n= 1705 hit2=0.529 hitH=0.897 ext=0.865 T=  2 nb=0.0 mae=64 r24=+4.6
+-- D. volume quintile
+                0: n=  689 hit2=0.656 hitH=0.943 ext=0.922 T=  1 nb=0.0 mae=44 r24=+33.0
+                1: n=  622 hit2=0.630 hitH=0.947 ext=0.908 T=  1 nb=0.0 mae=50 r24=-3.7
+                2: n=  666 hit2=0.568 hitH=0.904 ext=0.880 T=  2 nb=0.0 mae=56 r24=-9.0
+                3: n=  669 hit2=0.483 hitH=0.904 ext=0.864 T=  2 nb=0.0 mae=74 r24=+26.3
+                4: n=  678 hit2=0.416 hitH=0.841 ext=0.785 T=  3 nb=0.0 mae=83 r24=+44.3
+-- E. candle type
+                1: n= 2512 hit2=0.532 hitH=0.900 ext=0.859 T=  2 nb=0.0 mae=60 r24=+14.8
+                2: n=  812 hit2=0.605 hitH=0.931 ext=0.908 T=  1 nb=0.0 mae=56 r24=+18.6
+-- G1. session block
+                0: n=  827 hit2=0.543 hitH=0.901 ext=0.860 T=  2 nb=0.0 mae=55 r24=-9.6
+                1: n=  806 hit2=0.563 hitH=0.931 ext=0.896 T=  2 nb=0.0 mae=55 r24=+35.3
+                2: n=  866 hit2=0.522 hitH=0.879 ext=0.841 T=  2 nb=0.0 mae=66 r24=+12.2
+                3: n=  825 hit2=0.572 hitH=0.921 ext=0.891 T=  2 nb=0.0 mae=61 r24=+19.0
+-- G2. day of week
+                0: n=  476 hit2=0.574 hitH=0.931 ext=0.903 T=  2 nb=0.0 mae=49 r24=-9.5
+                1: n=  478 hit2=0.538 hitH=0.918 ext=0.887 T=  2 nb=0.0 mae=67 r24=+45.4
+                2: n=  458 hit2=0.566 hitH=0.908 ext=0.862 T=  2 nb=0.0 mae=61 r24=-68.0
+                3: n=  479 hit2=0.547 hitH=0.912 ext=0.887 T=  2 nb=0.0 mae=69 r24=+70.1
+                4: n=  462 hit2=0.567 hitH=0.879 ext=0.823 T=  2 nb=0.0 mae=54 r24=-20.9
+                5: n=  490 hit2=0.541 hitH=0.894 ext=0.855 T=  2 nb=0.0 mae=61 r24=+84.1
+                6: n=  481 hit2=0.518 hitH=0.909 ext=0.879 T=  2 nb=0.0 mae=55 r24=+47.2
+-- H. BTC regime
+                0: n=   19 hit2=0.632 hitH=1.000 ext=1.000 T=  1 nb=0.0 mae=49 r24=+77.8
+                1: n= 1867 hit2=0.538 hitH=0.895 ext=0.858 T=  2 nb=0.0 mae=53 r24=+1.1
+                2: n= 1438 hit2=0.563 hitH=0.922 ext=0.887 T=  2 nb=0.0 mae=68 r24=+52.1
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=10: n=998 hitH=0.878 (Δ-0.042, q=0.001) ext=0.827 r24=+13.9
+   * uwd_ge=9: n=1996 hitH=0.896 (Δ-0.029, q=0.017) ext=0.852 r24=+23.0
+   * uwd_ge=10: n=998 hitH=0.878 (Δ-0.042, q=0.001) ext=0.827 r24=+13.9
+   * volq=0: n=689 hitH=0.943 (Δ+0.045, q=0.001) ext=0.922 r24=+33.0
+   * volq=1: n=622 hitH=0.947 (Δ+0.049, q=0.001) ext=0.908 r24=-3.7
+   * volq=4: n=678 hitH=0.841 (Δ-0.084, q=0.000) ext=0.785 r24=+44.3
+   * volq_ge=2: n=2013 hitH=0.883 (Δ-0.062, q=0.000) ext=0.843 r24=+5.2
+   * volq_ge=3: n=1347 hitH=0.872 (Δ-0.059, q=0.000) ext=0.824 r24=+32.1
+   * typ=1: n=2512 hitH=0.900 (Δ-0.031, q=0.020) ext=0.859 r24=+14.8
+   * typ=2: n=812 hitH=0.931 (Δ+0.031, q=0.020) ext=0.908 r24=+18.6
+   * rng_q=0: n=777 hitH=0.955 (Δ+0.062, q=0.000) ext=0.932 r24=+62.6
+   * rng_q=4: n=546 hitH=0.830 (Δ-0.093, q=0.000) ext=0.767 r24=+11.7
+   * reg=1: n=1867 hitH=0.895 (Δ-0.028, q=0.018) ext=0.858 r24=+1.1
+   * reg=2: n=1438 hitH=0.922 (Δ+0.026, q=0.026) ext=0.887 r24=+52.1
+-- J. combo gates
+   C1_wick8_trend_up: n=1250 hit2=0.528 hitH=0.896 ext=0.851 T=2 r24=+54.9 (rest hitH=0.914)
+   C2_wick8_sma_above: n=1695 hit2=0.538 hitH=0.901 ext=0.862 T=2 r24=+40.0 (rest hitH=0.914)
+   C3_wick8_quietvol: n=1199 hit2=0.634 hitH=0.942 ext=0.911 T=1 r24=+22.3 (rest hitH=0.888)
+   C4_wick8_bear_regime: n=14 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=749 hit2=0.534 hitH=0.904 ext=0.873 T=2 r24=+12.1 (rest hitH=0.908)
+
+################ SOLUSDT-30m  (n=6817) ################
+BASE: hit2=0.547 hitH=0.905 ext1.5x=0.869 medT=2 medBounces=0.0 medMAE=42bps r24=+21.0bps
+-- A. wick decile dose-response
+                7: n=  684 hit2=0.662 hitH=0.937 ext=0.923 T=  1 nb=0.0 mae=37 r24=+11.2
+                8: n= 2044 hit2=0.611 hitH=0.923 ext=0.896 T=  1 nb=0.0 mae=40 r24=+30.4
+                9: n= 2044 hit2=0.539 hitH=0.902 ext=0.860 T=  2 nb=0.0 mae=42 r24=+13.5
+               10: n= 2045 hit2=0.454 hitH=0.880 ext=0.833 T=  2 nb=0.0 mae=48 r24=+13.2
+-- B1. trend quintile
+                0: n= 1263 hit2=0.546 hitH=0.907 ext=0.876 T=  2 nb=0.0 mae=49 r24=+9.7
+                1: n= 1350 hit2=0.581 hitH=0.914 ext=0.878 T=  2 nb=0.0 mae=34 r24=+1.6
+                2: n= 1381 hit2=0.542 hitH=0.903 ext=0.868 T=  2 nb=0.0 mae=34 r24=+3.5
+                3: n= 1456 hit2=0.558 hitH=0.908 ext=0.874 T=  2 nb=0.0 mae=39 r24=+20.8
+                4: n= 1367 hit2=0.508 hitH=0.892 ext=0.849 T=  2 nb=0.0 mae=58 r24=+70.4
+-- B2. SMA50 alignment
+               -1: n= 2952 hit2=0.561 hitH=0.912 ext=0.877 T=  2 nb=0.0 mae=40 r24=+2.9
+                0: n=    6 hit2=0.500 hitH=1.000 ext=1.000 T=  2 nb=0.0 mae=104 r24=+146.0
+                1: n= 3859 hit2=0.537 hitH=0.899 ext=0.863 T=  2 nb=0.0 mae=43 r24=+35.6
+-- C. prior candle dir
+               -1: n= 3255 hit2=0.561 hitH=0.911 ext=0.876 T=  2 nb=0.0 mae=41 r24=+17.7
+                0: n=   42 hit2=0.548 hitH=0.881 ext=0.833 T=  2 nb=0.0 mae=52 r24=-19.4
+                1: n= 3520 hit2=0.535 hitH=0.900 ext=0.863 T=  2 nb=0.0 mae=43 r24=+18.2
+-- D. volume quintile
+                0: n= 1388 hit2=0.658 hitH=0.952 ext=0.928 T=  1 nb=0.0 mae=30 r24=+39.7
+                1: n= 1376 hit2=0.580 hitH=0.922 ext=0.895 T=  2 nb=0.0 mae=40 r24=+16.1
+                2: n= 1330 hit2=0.557 hitH=0.914 ext=0.882 T=  2 nb=0.0 mae=42 r24=+5.8
+                3: n= 1320 hit2=0.521 hitH=0.900 ext=0.864 T=  2 nb=0.0 mae=46 r24=+9.7
+                4: n= 1403 hit2=0.421 hitH=0.838 ext=0.778 T=  2 nb=0.0 mae=59 r24=+11.6
+-- E. candle type
+                1: n= 5250 hit2=0.524 hitH=0.898 ext=0.859 T=  2 nb=0.0 mae=44 r24=+20.3
+                2: n= 1567 hit2=0.625 hitH=0.927 ext=0.902 T=  1 nb=0.0 mae=38 r24=+18.8
+-- G1. session block
+                0: n= 1675 hit2=0.523 hitH=0.905 ext=0.872 T=  2 nb=0.0 mae=43 r24=+26.1
+                1: n= 1708 hit2=0.569 hitH=0.919 ext=0.886 T=  2 nb=0.0 mae=37 r24=+4.3
+                2: n= 1710 hit2=0.530 hitH=0.880 ext=0.833 T=  2 nb=0.0 mae=49 r24=+20.5
+                3: n= 1724 hit2=0.567 hitH=0.915 ext=0.885 T=  2 nb=0.0 mae=41 r24=+42.3
+-- G2. day of week
+                0: n=  983 hit2=0.520 hitH=0.901 ext=0.879 T=  2 nb=0.0 mae=36 r24=+6.5
+                1: n=  930 hit2=0.538 hitH=0.898 ext=0.861 T=  2 nb=0.0 mae=50 r24=+28.5
+                2: n= 1001 hit2=0.564 hitH=0.907 ext=0.870 T=  2 nb=0.0 mae=42 r24=-9.8
+                3: n=  950 hit2=0.568 hitH=0.911 ext=0.878 T=  2 nb=0.0 mae=44 r24=+30.3
+                4: n=  979 hit2=0.551 hitH=0.912 ext=0.873 T=  2 nb=0.0 mae=44 r24=+63.2
+                5: n=  990 hit2=0.534 hitH=0.910 ext=0.865 T=  2 nb=0.0 mae=46 r24=+26.1
+                6: n=  984 hit2=0.556 hitH=0.895 ext=0.857 T=  2 nb=0.0 mae=32 r24=+13.3
+-- H. BTC regime
+                0: n=   39 hit2=0.641 hitH=0.974 ext=0.949 T=  1 nb=0.0 mae=35 r24=-29.0
+                1: n= 3963 hit2=0.550 hitH=0.905 ext=0.867 T=  2 nb=0.0 mae=39 r24=+20.2
+                2: n= 2815 hit2=0.542 hitH=0.904 ext=0.871 T=  2 nb=0.0 mae=47 r24=+23.5
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=7: n=684 hitH=0.937 (Δ+0.036, q=0.005) ext=0.923 r24=+11.2
+   * uwd=8: n=2044 hitH=0.923 (Δ+0.025, q=0.003) ext=0.896 r24=+30.4
+   * uwd=10: n=2045 hitH=0.880 (Δ-0.036, q=0.000) ext=0.833 r24=+13.2
+   * uwd_ge=8: n=6133 hitH=0.901 (Δ-0.036, q=0.005) ext=0.863 r24=+24.2
+   * uwd_ge=9: n=4089 hitH=0.891 (Δ-0.036, q=0.000) ext=0.846 r24=+17.8
+   * uwd_ge=10: n=2045 hitH=0.880 (Δ-0.036, q=0.000) ext=0.833 r24=+13.2
+   * volq=0: n=1388 hitH=0.952 (Δ+0.060, q=0.000) ext=0.928 r24=+39.7
+   * volq=1: n=1376 hitH=0.922 (Δ+0.021, q=0.039) ext=0.895 r24=+16.1
+   * volq=4: n=1403 hitH=0.838 (Δ-0.084, q=0.000) ext=0.778 r24=+11.6
+   * volq_ge=2: n=4053 hitH=0.883 (Δ-0.054, q=0.000) ext=0.840 r24=+13.2
+   * volq_ge=3: n=2723 hitH=0.868 (Δ-0.061, q=0.000) ext=0.819 r24=+21.0
+   * typ=1: n=5250 hitH=0.898 (Δ-0.028, q=0.003) ext=0.859 r24=+20.3
+   * typ=2: n=1567 hitH=0.927 (Δ+0.028, q=0.003) ext=0.902 r24=+18.8
+   * rng_q=0: n=1704 hitH=0.957 (Δ+0.070, q=0.000) ext=0.935 r24=+46.8
+   * rng_q=1: n=1457 hitH=0.929 (Δ+0.030, q=0.002) ext=0.903 r24=+9.3
+   * rng_q=3: n=1190 hitH=0.881 (Δ-0.029, q=0.004) ext=0.834 r24=+10.5
+   * rng_q=4: n=1112 hitH=0.818 (Δ-0.103, q=0.000) ext=0.759 r24=+6.2
+-- J. combo gates
+   C1_wick8_trend_up: n=2554 hit2=0.523 hitH=0.898 ext=0.856 T=2 r24=+45.8 (rest hitH=0.909)
+   C2_wick8_sma_above: n=3486 hit2=0.526 hitH=0.897 ext=0.858 T=2 r24=+32.4 (rest hitH=0.914)
+   C3_wick8_quietvol: n=2472 hit2=0.610 hitH=0.936 ext=0.908 T=1 r24=+25.1 (rest hitH=0.887)
+   C4_wick8_bear_regime: n=37 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=1566 hit2=0.519 hitH=0.896 ext=0.858 T=2 r24=+1.7 (rest hitH=0.908)
+
+################ SOLUSDT-4h  (n=839) ################
+BASE: hit2=0.565 hitH=0.933 ext1.5x=0.900 medT=2 medBounces=0.0 medMAE=130bps r24=+235.3bps
+-- A. wick decile dose-response
+                7: n=   82 hit2=0.695 hitH=0.939 ext=0.890 T=  1 nb=0.0 mae=74 r24=+150.5
+                8: n=  252 hit2=0.587 hitH=0.940 ext=0.913 T=  1 nb=0.0 mae=126 r24=+170.2
+                9: n=  252 hit2=0.567 hitH=0.921 ext=0.893 T=  2 nb=0.0 mae=141 r24=+231.4
+               10: n=  253 hit2=0.498 hitH=0.937 ext=0.897 T=  2 nb=0.0 mae=140 r24=+276.4
+-- B1. trend quintile
+                0: n=  179 hit2=0.570 hitH=0.950 ext=0.927 T=  2 nb=0.0 mae=155 r24=+227.4
+                1: n=  171 hit2=0.561 hitH=0.930 ext=0.901 T=  2 nb=0.0 mae=123 r24=+93.7
+                2: n=  164 hit2=0.555 hitH=0.927 ext=0.902 T=  1 nb=0.0 mae=95 r24=+208.6
+                3: n=  164 hit2=0.549 hitH=0.927 ext=0.872 T=  2 nb=0.0 mae=125 r24=+203.7
+                4: n=  161 hit2=0.590 hitH=0.932 ext=0.894 T=  2 nb=0.0 mae=144 r24=+363.6
+-- B2. SMA50 alignment
+               -1: n=  381 hit2=0.554 hitH=0.940 ext=0.916 T=  2 nb=0.0 mae=148 r24=+161.2
+                0: n=    5 hit2=0.600 hitH=1.000 ext=0.600 T=  2 nb=0.0 mae=73 r24=-223.2
+                1: n=  453 hit2=0.574 hitH=0.927 ext=0.890 T=  2 nb=0.0 mae=121 r24=+292.1
+-- C. prior candle dir
+               -1: n=  373 hit2=0.592 hitH=0.938 ext=0.912 T=  2 nb=0.0 mae=121 r24=+203.1
+                0: n=    1 hit2=0.000 hitH=1.000 ext=1.000 T=  8 nb=0.0 mae=226 r24=+1828.0
+                1: n=  465 hit2=0.544 hitH=0.929 ext=0.890 T=  2 nb=0.0 mae=137 r24=+272.3
+-- D. volume quintile
+                0: n=  171 hit2=0.620 hitH=0.953 ext=0.947 T=  1 nb=0.0 mae=119 r24=+187.7
+                1: n=  164 hit2=0.640 hitH=0.963 ext=0.945 T=  2 nb=0.0 mae=133 r24=+237.0
+                2: n=  172 hit2=0.599 hitH=0.936 ext=0.890 T=  2 nb=0.0 mae=129 r24=+120.0
+                3: n=  180 hit2=0.544 hitH=0.922 ext=0.894 T=  2 nb=0.0 mae=115 r24=+264.6
+                4: n=  152 hit2=0.408 hitH=0.888 ext=0.816 T=  3 nb=0.0 mae=168 r24=+290.1
+-- E. candle type
+                1: n=  641 hit2=0.562 hitH=0.930 ext=0.899 T=  2 nb=0.0 mae=129 r24=+200.5
+                2: n=  198 hit2=0.576 hitH=0.944 ext=0.904 T=  2 nb=0.0 mae=136 r24=+235.0
+-- G1. session block
+                0: n=  282 hit2=0.518 hitH=0.922 ext=0.894 T=  2 nb=0.0 mae=125 r24=+246.0
+                1: n=  161 hit2=0.590 hitH=0.950 ext=0.925 T=  1 nb=0.0 mae=189 r24=+128.1
+                2: n=  245 hit2=0.576 hitH=0.922 ext=0.869 T=  2 nb=0.0 mae=103 r24=+208.6
+                3: n=  151 hit2=0.609 hitH=0.954 ext=0.934 T=  1 nb=0.0 mae=139 r24=+280.4
+-- G2. day of week
+                0: n=  128 hit2=0.586 hitH=0.961 ext=0.945 T=  2 nb=0.0 mae=107 r24=+243.2
+                1: n=  114 hit2=0.553 hitH=0.912 ext=0.895 T=  2 nb=0.0 mae=158 r24=+200.2
+                2: n=  109 hit2=0.569 hitH=0.945 ext=0.881 T=  2 nb=0.0 mae=130 r24=+216.3
+                3: n=  135 hit2=0.541 hitH=0.919 ext=0.859 T=  2 nb=0.0 mae=138 r24=+332.0
+                4: n=  120 hit2=0.525 hitH=0.900 ext=0.858 T=  2 nb=0.0 mae=160 r24=+136.6
+                5: n=  122 hit2=0.615 hitH=0.951 ext=0.943 T=  2 nb=0.0 mae=120 r24=+230.3
+                6: n=  111 hit2=0.568 hitH=0.946 ext=0.919 T=  2 nb=0.0 mae=117 r24=+148.3
+-- H. BTC regime
+                0: n=    5 hit2=0.400 hitH=1.000 ext=1.000 T=  3 nb=0.0 mae=268 r24=+339.0
+                1: n=  487 hit2=0.548 hitH=0.945 ext=0.910 T=  2 nb=0.0 mae=125 r24=+254.2
+                2: n=  347 hit2=0.591 hitH=0.916 ext=0.885 T=  2 nb=0.0 mae=135 r24=+214.0
+-- I. single-condition scan (BH<0.05 shown)
+-- J. combo gates
+   C1_wick8_trend_up: n=298 hit2=0.567 hitH=0.926 ext=0.886 T=2 r24=+292.4 (rest hitH=0.937)
+   C2_wick8_sma_above: n=411 hit2=0.560 hitH=0.925 ext=0.891 T=2 r24=+286.9 (rest hitH=0.942)
+   C3_wick8_quietvol: n=300 hit2=0.627 hitH=0.957 ext=0.947 T=2 r24=+211.6 (rest hitH=0.920)
+   C4_wick8_bear_regime: n=4 too few
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=195 hit2=0.549 hitH=0.949 ext=0.923 T=2 r24=+202.0 (rest hitH=0.929)
+
+################ SOLUSDT-5m  (n=40427) ################
+BASE: hit2=0.565 hitH=0.903 ext1.5x=0.867 medT=2 medBounces=0.0 medMAE=15bps r24=+3.4bps
+-- A. wick decile dose-response
+                7: n= 4236 hit2=0.659 hitH=0.926 ext=0.900 T=  1 nb=0.0 mae=14 r24=+2.5
+                8: n=12065 hit2=0.632 hitH=0.920 ext=0.891 T=  1 nb=0.0 mae=15 r24=+0.4
+                9: n=12064 hit2=0.564 hitH=0.906 ext=0.869 T=  2 nb=0.0 mae=16 r24=+4.9
+               10: n=12062 hit2=0.466 hitH=0.876 ext=0.830 T=  2 nb=0.0 mae=17 r24=+2.7
+-- B1. trend quintile
+                0: n= 8207 hit2=0.595 hitH=0.918 ext=0.883 T=  2 nb=0.0 mae=19 r24=+10.7
+                1: n= 7851 hit2=0.581 hitH=0.917 ext=0.885 T=  2 nb=0.0 mae=13 r24=-1.3
+                2: n= 7785 hit2=0.574 hitH=0.909 ext=0.878 T=  2 nb=0.0 mae=11 r24=+1.4
+                3: n= 7950 hit2=0.545 hitH=0.899 ext=0.862 T=  2 nb=0.0 mae=14 r24=+0.3
+                4: n= 8634 hit2=0.532 hitH=0.876 ext=0.831 T=  2 nb=0.0 mae=22 r24=-2.0
+-- B2. SMA50 alignment
+               -1: n=17116 hit2=0.583 hitH=0.916 ext=0.881 T=  2 nb=0.0 mae=15 r24=+5.6
+                0: n=    4 hit2=0.500 hitH=1.000 ext=1.000 T=  2 nb=0.0 mae=22 r24=-47.2
+                1: n=23307 hit2=0.551 hitH=0.894 ext=0.856 T=  2 nb=0.0 mae=16 r24=+1.4
+-- C. prior candle dir
+               -1: n=19447 hit2=0.581 hitH=0.912 ext=0.878 T=  2 nb=0.0 mae=15 r24=+3.0
+                0: n=  727 hit2=0.547 hitH=0.900 ext=0.861 T=  2 nb=0.0 mae=11 r24=+6.6
+                1: n=20253 hit2=0.550 hitH=0.895 ext=0.857 T=  2 nb=0.0 mae=17 r24=+1.7
+-- D. volume quintile
+                0: n= 8123 hit2=0.627 hitH=0.930 ext=0.903 T=  1 nb=0.0 mae=13 r24=+4.6
+                1: n= 8235 hit2=0.611 hitH=0.922 ext=0.891 T=  1 nb=0.0 mae=15 r24=+3.3
+                2: n= 8179 hit2=0.572 hitH=0.909 ext=0.877 T=  2 nb=0.0 mae=15 r24=+3.7
+                3: n= 7853 hit2=0.552 hitH=0.899 ext=0.861 T=  2 nb=0.0 mae=17 r24=+2.8
+                4: n= 8037 hit2=0.460 hitH=0.855 ext=0.801 T=  2 nb=0.0 mae=19 r24=-1.6
+-- E. candle type
+                1: n=32616 hit2=0.546 hitH=0.899 ext=0.861 T=  2 nb=0.0 mae=16 r24=+1.6
+                2: n= 7811 hit2=0.642 hitH=0.922 ext=0.893 T=  1 nb=0.0 mae=15 r24=+3.3
+-- G1. session block
+                0: n= 9697 hit2=0.564 hitH=0.893 ext=0.856 T=  2 nb=0.0 mae=14 r24=+3.7
+                1: n=10344 hit2=0.573 hitH=0.917 ext=0.883 T=  2 nb=0.0 mae=14 r24=+1.9
+                2: n=10184 hit2=0.560 hitH=0.888 ext=0.850 T=  2 nb=0.0 mae=19 r24=-5.5
+                3: n=10202 hit2=0.562 hitH=0.914 ext=0.878 T=  2 nb=0.0 mae=15 r24=+7.6
+-- G2. day of week
+                0: n= 5643 hit2=0.560 hitH=0.898 ext=0.863 T=  2 nb=0.0 mae=13 r24=+0.2
+                1: n= 5765 hit2=0.569 hitH=0.901 ext=0.862 T=  2 nb=0.0 mae=16 r24=+4.3
+                2: n= 5827 hit2=0.572 hitH=0.898 ext=0.860 T=  2 nb=0.0 mae=16 r24=-2.6
+                3: n= 5746 hit2=0.560 hitH=0.907 ext=0.875 T=  2 nb=0.0 mae=18 r24=+0.8
+                4: n= 5865 hit2=0.568 hitH=0.906 ext=0.867 T=  2 nb=0.0 mae=17 r24=+7.9
+                5: n= 5893 hit2=0.570 hitH=0.909 ext=0.872 T=  2 nb=0.0 mae=16 r24=+5.6
+                6: n= 5688 hit2=0.554 hitH=0.904 ext=0.869 T=  2 nb=0.0 mae=13 r24=+1.7
+-- H. BTC regime
+                0: n=  184 hit2=0.576 hitH=0.870 ext=0.848 T=  1 nb=0.0 mae=12 r24=-21.6
+                1: n=22824 hit2=0.558 hitH=0.900 ext=0.865 T=  2 nb=0.0 mae=14 r24=+2.1
+                2: n=17419 hit2=0.573 hitH=0.908 ext=0.870 T=  2 nb=0.0 mae=17 r24=+3.2
+-- I. single-condition scan (BH<0.05 shown)
+   * uwd=7: n=4236 hitH=0.926 (Δ+0.025, q=0.000) ext=0.900 r24=+2.5
+   * uwd=8: n=12065 hitH=0.920 (Δ+0.024, q=0.000) ext=0.891 r24=+0.4
+   * uwd=10: n=12062 hitH=0.876 (Δ-0.039, q=0.000) ext=0.830 r24=+2.7
+   * uwd_ge=8: n=36191 hitH=0.901 (Δ-0.025, q=0.000) ext=0.863 r24=+2.4
+   * uwd_ge=9: n=24126 hitH=0.891 (Δ-0.030, q=0.000) ext=0.849 r24=+2.7
+   * uwd_ge=10: n=12062 hitH=0.876 (Δ-0.039, q=0.000) ext=0.830 r24=+2.7
+   * trend=0: n=8207 hitH=0.918 (Δ+0.018, q=0.000) ext=0.883 r24=+10.7
+   * trend=1: n=7851 hitH=0.917 (Δ+0.018, q=0.000) ext=0.885 r24=-1.3
+   * trend=4: n=8634 hitH=0.876 (Δ-0.035, q=0.000) ext=0.831 r24=-2.0
+   * trend_ge=1: n=32220 hitH=0.900 (Δ-0.018, q=0.000) ext=0.863 r24=+0.6
+   * trend_ge=2: n=24369 hitH=0.894 (Δ-0.024, q=0.000) ext=0.856 r24=+0.9
+   * trend_ge=3: n=16584 hitH=0.887 (Δ-0.028, q=0.000) ext=0.845 r24=+0.5
+   * smaal=-1: n=17116 hitH=0.916 (Δ+0.021, q=0.000) ext=0.881 r24=+5.6
+   * smaal=1: n=23307 hitH=0.894 (Δ-0.022, q=0.000) ext=0.856 r24=+1.4
+   * prev=-1: n=19447 hitH=0.912 (Δ+0.016, q=0.000) ext=0.878 r24=+3.0
+   * prev=1: n=20253 hitH=0.895 (Δ-0.016, q=0.000) ext=0.857 r24=+1.7
+   * volq=0: n=8123 hitH=0.930 (Δ+0.034, q=0.000) ext=0.903 r24=+4.6
+   * volq=1: n=8235 hitH=0.922 (Δ+0.023, q=0.000) ext=0.891 r24=+3.3
+   * volq=2: n=8179 hitH=0.909 (Δ+0.008, q=0.048) ext=0.877 r24=+3.7
+   * volq=4: n=8037 hitH=0.855 (Δ-0.060, q=0.000) ext=0.801 r24=-1.6
+   * volq_ge=2: n=24069 hitH=0.888 (Δ-0.038, q=0.000) ext=0.847 r24=+1.1
+   * volq_ge=3: n=15890 hitH=0.877 (Δ-0.044, q=0.000) ext=0.831 r24=+1.0
+   * typ=1: n=32616 hitH=0.899 (Δ-0.023, q=0.000) ext=0.861 r24=+1.6
+   * typ=2: n=7811 hitH=0.922 (Δ+0.023, q=0.000) ext=0.893 r24=+3.3
+   * rng_q=0: n=10114 hitH=0.935 (Δ+0.042, q=0.000) ext=0.911 r24=+2.2
+   * rng_q=1: n=9187 hitH=0.923 (Δ+0.026, q=0.000) ext=0.893 r24=+2.6
+   * rng_q=3: n=6921 hitH=0.884 (Δ-0.023, q=0.000) ext=0.844 r24=+3.0
+   * rng_q=4: n=5988 hitH=0.837 (Δ-0.078, q=0.000) ext=0.775 r24=+1.8
+   * reg=1: n=22824 hitH=0.900 (Δ-0.007, q=0.025) ext=0.865 r24=+2.1
+   * reg=2: n=17419 hitH=0.908 (Δ+0.008, q=0.014) ext=0.870 r24=+3.2
+-- J. combo gates
+   C1_wick8_trend_up: n=14942 hit2=0.527 hitH=0.884 ext=0.841 T=2 r24=-0.3 (rest hitH=0.914)
+   C2_wick8_sma_above: n=20896 hit2=0.539 hitH=0.891 ext=0.852 T=2 r24=+0.8 (rest hitH=0.917)
+   C3_wick8_quietvol: n=14606 hit2=0.609 hitH=0.925 ext=0.895 T=1 r24=+4.5 (rest hitH=0.891)
+   C4_wick8_bear_regime: n=172 hit2=0.564 hitH=0.860 ext=0.837 T=1 r24=-27.4 (rest hitH=0.903)
+   C5_wick8_bodydom: n=0 too few
+   C6_wick910_dipbuy: n=9473 hit2=0.539 hitH=0.906 ext=0.868 T=2 r24=+6.0 (rest hitH=0.902)
+
+wrote outputs/w4b_conditions.csv

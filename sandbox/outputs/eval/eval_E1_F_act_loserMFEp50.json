@@ -1,0 +1,24 @@
+{
+  "spec": "E1_F_act_loserMFEp50",
+  "entry": {
+    "symbol": "SOLUSDT",
+    "tf": "30m",
+    "row": "E1",
+    "policy": "F_act_loserMFEp50"
+  },
+  "eval_window": {
+    "start": "2025-07-01",
+    "end": "2026-06-30"
+  },
+  "n_trades": 1486,
+  "win_rate_pct": 88.09,
+  "net_bps": 58.05,
+  "monthly_bps": 4436574.1,
+  "maxdd_pct": 3.48,
+  "worst_bps": -2038.0,
+  "med_hold_h": 3.5,
+  "C1_net_positive": true,
+  "C2_regime_stable": true,
+  "EVAL_result": "PASS",
+  "timestamp": "2026-09-01T13:33:05.159359Z"
+}
